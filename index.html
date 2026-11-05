@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es" class="h-full bg-slate-950 text-slate-100">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>OptiTrack - Cadenas de Ópticas, Contactología & Talleres de Tallado</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👓</text></svg>">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @media print {
+      .no-print { display: none !important; }
+      body { background: white !important; color: black !important; }
+      .print-only { display: block !important; }
+    }
+  </style>
+</head>
+<body class="min-h-full flex flex-col font-sans selection:bg-blue-500 selection:text-white">
+
+  <!-- Header Institucional -->
+  <header class="no-print border-b border-slate-800/80 bg-slate-900/90 backdrop-blur sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-3 w-full sm:w-auto justify-between sm:justify-start">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-purple-600 to-blue-500 flex items-center justify-center text-xl shadow-lg shadow-purple-500/20">
+            👓
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <h1 class="font-extrabold text-white text-lg tracking-tight">OptiTrack</h1>
+              <span class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-purple-500/20 text-purple-400 border border-purple-500/30">v1.0.00</span>
+            </div>
+            <p class="text-xs text-slate-400">Cadenas de Ópticas, Contactología & Talleres de Tallado</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-3 w-full sm:w-auto justify-end">
+        <button id="btn-header-new-order" class="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs shadow-lg shadow-blue-600/30 flex items-center gap-2">
+          <span>+</span> Cargar Nueva Receta
+        </button>
+      </div>
+    </div>
+
+    <!-- Navegación por Pestañas -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-3">
+      <nav id="tab-nav" class="flex gap-2 overflow-x-auto pb-1 scrollbar-none">
+        <button data-tab="dashboard" class="px-4 py-2 rounded-xl text-sm font-semibold bg-blue-600 text-white shadow-lg shadow-blue-600/30 flex items-center gap-2 whitespace-nowrap">
+          📊 Panel General
+        </button>
+        <button data-tab="prescriptions" class="px-4 py-2 rounded-xl text-sm font-semibold bg-slate-900/60 hover:bg-slate-800 text-slate-400 hover:text-slate-200 border border-slate-800/80 flex items-center gap-2 whitespace-nowrap">
+          👓 Recetas & Sobres
+        </button>
+        <button data-tab="transposer-tool" class="px-4 py-2 rounded-xl text-sm font-semibold bg-slate-900/60 hover:bg-slate-800 text-slate-400 hover:text-slate-200 border border-slate-800/80 flex items-center gap-2 whitespace-nowrap">
+          🔄 Transpositor Óptico
+        </button>
+        <button data-tab="lensometer-qc" class="px-4 py-2 rounded-xl text-sm font-semibold bg-slate-900/60 hover:bg-slate-800 text-slate-400 hover:text-slate-200 border border-slate-800/80 flex items-center gap-2 whitespace-nowrap">
+          🔬 Control Fronto QC
+        </button>
+        <button data-tab="catalog" class="px-4 py-2 rounded-xl text-sm font-semibold bg-slate-900/60 hover:bg-slate-800 text-slate-400 hover:text-slate-200 border border-slate-800/80 flex items-center gap-2 whitespace-nowrap">
+          💎 Catálogo de Cristales
+        </button>
+        <button data-tab="settlement" class="px-4 py-2 rounded-xl text-sm font-semibold bg-slate-900/60 hover:bg-slate-800 text-slate-400 hover:text-slate-200 border border-slate-800/80 flex items-center gap-2 whitespace-nowrap">
+          💰 Liquidación Mixta
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contenedor Principal de Vistas -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <div id="view-container"></div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="no-print border-t border-slate-800/80 py-4 text-center text-xs text-slate-500">
+    OptiTrack v1.0.00 · Fórmulas Oftálmicas OD/OI · Norma ISO 8980-1 · Sello Criptográfico SHA-256 · AiAppFactory
+  </footer>
+
+  <!-- Modal: Cargar Nueva Receta -->
+  <div id="new-order-modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-slate-900 border border-slate-800 rounded-2xl max-w-xl w-full p-6 shadow-2xl space-y-4 max-h-[90vh] overflow-y-auto">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+        <h3 class="text-base font-bold text-white flex items-center gap-2">👓 Carga de Receta Médica & Sobre de Taller</h3>
+        <button id="btn-close-new-order-modal" class="text-slate-400 hover:text-white text-lg font-bold">&times;</button>
+      </div>
+
+      <form id="form-new-order" class="space-y-4 text-xs">
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-slate-400 mb-1">Nombre del Paciente</label>
+            <input type="text" id="new-patient-name" value="Carlos Páez" required class="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-white">
+          </div>
+          <div>
+            <label class="block text-slate-400 mb-1">WhatsApp Paciente</label>
+            <input type="text" id="new-patient-phone" value="+5493435123456" required class="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-white">
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-slate-400 mb-1">Médico Oftalmólogo</label>
+            <input type="text" id="new-doctor-name" value="Dr. Guillermo Bustos" required class="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-white">
+          </div>
+          <div>
+            <label class="block text-slate-400 mb-1">Obra Social / Prepaga</label>
+            <input type="text" id="new-insurance-name" value="OSDE 210" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-white">
+          </div>
+        </div>
+
+        <!-- Ficha OD -->
+        <div class="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
+          <span class="text-cyan-400 font-bold block">OJO DERECHO (OD):</span>
+          <div class="grid grid-cols-4 gap-2">
+            <div>
+              <label class="block text-[10px] text-slate-500">Esfera (D)</label>
+              <input type="number" id="new-od-sph" step="0.25" value="-2.50" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-1.5 text-center font-mono text-white">
+            </div>
+            <div>
+              <label class="block text-[10px] text-slate-500">Cilindro (D)</label>
+              <input type="number" id="new-od-cyl" step="0.25" value="-0.75" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-1.5 text-center font-mono text-white">
+            </div>
+            <div>
+              <label class="block text-[10px] text-slate-500">Eje (°)</label>
+              <input type="number" id="new-od-axis" min="0" max="180" value="90" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-1.5 text-center font-mono text-white">
+            </div>
+            <div>
+              <label class="block text-[10px] text-slate-500">DNP (mm)</label>
+              <input type="number" id="new-od-dnp" step="0.5" value="31.0" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-1.5 text-center font-mono text-white">
+            </div>
+          </div>
+        </div>
+
+        <!-- Ficha OI -->
+        <div class="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
+          <span class="text-cyan-400 font-bold block">OJO IZQUIERDO (OI):</span>
+          <div class="grid grid-cols-4 gap-2">
+            <div>
+              <label class="block text-[10px] text-slate-500">Esfera (D)</label>
+              <input type="number" id="new-oi-sph" step="0.25" value="-2.25" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-1.5 text-center font-mono text-white">
+            </div>
+            <div>
+              <label class="block text-[10px] text-slate-500">Cilindro (D)</label>
+              <input type="number" id="new-oi-cyl" step="0.25" value="-0.50" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-1.5 text-center font-mono text-white">
+            </div>
+            <div>
+              <label class="block text-[10px] text-slate-500">Eje (°)</label>
+              <input type="number" id="new-oi-axis" min="0" max="180" value="85" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-1.5 text-center font-mono text-white">
+            </div>
+            <div>
+              <label class="block text-[10px] text-slate-500">DNP (mm)</label>
+              <input type="number" id="new-oi-dnp" step="0.5" value="31.5" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-1.5 text-center font-mono text-white">
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-3 gap-3">
+          <div>
+            <label class="block text-slate-400 mb-1">Adición (Presbicia)</label>
+            <input type="number" id="new-addition" step="0.25" min="0" max="4" value="0.00" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-white font-mono text-center">
+          </div>
+          <div>
+            <label class="block text-slate-400 mb-1">Armazón Elegido</label>
+            <input type="text" id="new-frame-model" value="Ray-Ban Wayfarer RB2140" required class="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-white">
+          </div>
+          <div>
+            <label class="block text-slate-400 mb-1">Material Cristal</label>
+            <select id="new-lens-material" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-white">
+              <option value="ORGANIC_CR39">Orgánico CR-39</option>
+              <option value="POLYCARBONATE">Policarbonato 1.59</option>
+              <option value="HIGH_INDEX_167" selected>Alto Índice 1.67</option>
+              <option value="ULTRA_HIGH_174">Ultra Alto 1.74</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Precios -->
+        <div class="grid grid-cols-3 gap-3">
+          <div>
+            <label class="block text-slate-400 mb-1">Total Facturado ($)</label>
+            <input type="number" id="new-total-amount" value="110000" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-white font-mono">
+          </div>
+          <div>
+            <label class="block text-slate-400 mb-1">Cobertura O.S. ($)</label>
+            <input type="number" id="new-insurance-coverage" value="40000" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-emerald-400 font-mono">
+          </div>
+          <div>
+            <label class="block text-slate-400 mb-1">Seña Dejada ($)</label>
+            <input type="number" id="new-deposit-paid" value="35000" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-blue-400 font-mono">
+          </div>
+        </div>
+
+        <div class="flex justify-end pt-2">
+          <button type="submit" class="w-full py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs uppercase tracking-wider">
+            Confirmar y Enviar Sobre a Taller
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal: Control Fronto QC -->
+  <div id="lensometer-modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-slate-900 border border-slate-800 rounded-2xl max-w-md w-full p-6 shadow-2xl space-y-4">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+        <h3 id="lensometer-modal-title" class="text-sm font-bold text-white truncate">Control Fronto QC</h3>
+        <button id="btn-close-lensometer-modal" class="text-slate-400 hover:text-white text-lg font-bold">&times;</button>
+      </div>
+
+      <form id="form-lensometer-check" class="space-y-4 text-xs">
+        <p class="text-slate-400">Verifique las dioptrías leídas en el frontofocómetro / lensómetro de mesada:</p>
+        
+        <div class="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
+          <span class="text-cyan-400 font-bold block">Lectura Fronto - OJO DERECHO (OD):</span>
+          <div class="grid grid-cols-3 gap-2">
+            <input type="number" id="qc-od-sph" step="0.25" placeholder="Esfera" class="bg-slate-900 border border-slate-700 rounded-lg p-1.5 text-center font-mono text-white">
+            <input type="number" id="qc-od-cyl" step="0.25" placeholder="Cilindro" class="bg-slate-900 border border-slate-700 rounded-lg p-1.5 text-center font-mono text-white">
+            <input type="number" id="qc-od-axis" placeholder="Eje" class="bg-slate-900 border border-slate-700 rounded-lg p-1.5 text-center font-mono text-white">
+          </div>
+        </div>
+
+        <div class="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
+          <span class="text-cyan-400 font-bold block">Lectura Fronto - OJO IZQUIERDO (OI):</span>
+          <div class="grid grid-cols-3 gap-2">
+            <input type="number" id="qc-oi-sph" step="0.25" placeholder="Esfera" class="bg-slate-900 border border-slate-700 rounded-lg p-1.5 text-center font-mono text-white">
+            <input type="number" id="qc-oi-cyl" step="0.25" placeholder="Cilindro" class="bg-slate-900 border border-slate-700 rounded-lg p-1.5 text-center font-mono text-white">
+            <input type="number" id="qc-oi-axis" placeholder="Eje" class="bg-slate-900 border border-slate-700 rounded-lg p-1.5 text-center font-mono text-white">
+          </div>
+        </div>
+
+        <button type="submit" class="w-full py-2.5 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-xs uppercase tracking-wider">
+          Aprobar Control y Sellar SHA-256
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal: Entrega y Adaptación ePOD -->
+  <div id="delivery-modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-slate-900 border border-slate-800 rounded-2xl max-w-md w-full p-6 shadow-2xl space-y-4">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+        <h3 id="delivery-modal-title" class="text-sm font-bold text-white truncate">Entrega y Adaptación</h3>
+        <button id="btn-close-delivery-modal" class="text-slate-400 hover:text-white text-lg font-bold">&times;</button>
+      </div>
+
+      <div class="space-y-3 text-xs text-slate-300">
+        <p>Prueba de confort visual en mostrador realizada y aprobada por el paciente.</p>
+        <div class="p-4 bg-slate-950 rounded-xl border border-slate-800 text-center">
+          <span class="text-[10px] text-slate-500 uppercase block">Saldo a Cancelar en Mostrador</span>
+          <p id="delivery-balance-amount" class="text-2xl font-black text-amber-400 mt-1">$0</p>
+        </div>
+      </div>
+
+      <button id="btn-confirm-delivery" class="w-full py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs uppercase tracking-wider">
+        Cobrar Saldo y Firmar Entrega Definitiva (ePOD)
+      </button>
+    </div>
+  </div>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

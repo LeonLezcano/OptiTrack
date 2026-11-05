@@ -1,0 +1,43 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    function isOpticStaff() {
+      return isAuthenticated() && (request.auth.token.role == 'OPTICO_DIRECTOR' || request.auth.token.role == 'VENDEDOR' || request.auth.token.role == 'TECNICO_TALLER');
+    }
+
+    function isPatientOwner(patientId) {
+      return isAuthenticated() && request.auth.uid == patientId;
+    }
+
+    // Órdenes Oftálmicas y Sobres de Taller
+    match /optical_orders/{orderId} {
+      allow read: if isOpticStaff() || (isAuthenticated() && resource.data.patientId == request.auth.uid);
+      allow create: if isOpticStaff();
+      // Órdenes entregadas y selladas no pueden modificarse
+      allow update: if isOpticStaff() && resource.data.status != 'DELIVERED';
+      allow delete: if false; // Trazabilidad legal médica: prohibido borrar órdenes
+    }
+
+    // Recetas de Pacientes
+    match /prescriptions/{prescriptionId} {
+      allow read: if isOpticStaff() || (isAuthenticated() && resource.data.patientId == request.auth.uid);
+      allow write: if isOpticStaff();
+    }
+
+    // Catálogo de Armazones y Cristales
+    match /catalog/{itemId} {
+      allow read: if true;
+      allow write: if isOpticStaff();
+    }
+
+    // Obras Sociales y Aranceles
+    match /insurance_plans/{planId} {
+      allow read: if isOpticStaff();
+      allow write: if isAuthenticated() && request.auth.token.role == 'OPTICO_DIRECTOR';
+    }
+  }
+}

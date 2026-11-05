@@ -1,0 +1,310 @@
+{
+  "communities": {
+    "0": [
+      "tests_run_tests",
+      "tests_run_tests_assert",
+      "tests_run_tests_baddnp",
+      "tests_run_tests_badgeready",
+      "tests_run_tests_badgeworkshop",
+      "tests_run_tests_cachedorders",
+      "tests_run_tests_chaoslens",
+      "tests_run_tests_chaostrans",
+      "tests_run_tests_csvoutput",
+      "tests_run_tests_e2edelivered",
+      "tests_run_tests_e2eorder",
+      "tests_run_tests_e2equality",
+      "tests_run_tests_e2eworkshop",
+      "tests_run_tests_escaped",
+      "tests_run_tests_extremesph",
+      "tests_run_tests_far",
+      "tests_run_tests_fbcontent",
+      "tests_run_tests_fbpath",
+      "tests_run_tests_gitignorecontent",
+      "tests_run_tests_issealvalid",
+      "tests_run_tests_lenscheckfailaxis",
+      "tests_run_tests_lenscheckfailsph",
+      "tests_run_tests_lenscheckpass",
+      "tests_run_tests_mathigh",
+      "tests_run_tests_matlow",
+      "tests_run_tests_matmid",
+      "tests_run_tests_matultra",
+      "tests_run_tests_near",
+      "tests_run_tests_nulltrans",
+      "tests_run_tests_orderdelivered",
+      "tests_run_tests_orderdraft",
+      "tests_run_tests_orderqualityapproved",
+      "tests_run_tests_orderqualityfailed",
+      "tests_run_tests_orderworkshop",
+      "tests_run_tests_packagejson",
+      "tests_run_tests_rulescontent",
+      "tests_run_tests_rulespath",
+      "tests_run_tests_tamperedorder",
+      "tests_run_tests_tr1",
+      "tests_run_tests_tr2",
+      "tests_run_tests_tr3",
+      "tests_run_tests_tr4",
+      "tests_run_tests_unicodehash",
+      "tests_run_tests_unicodepayload",
+      "tests_run_tests_validranges",
+      "tests_run_tests_versionjson",
+      "tests_run_tests_waready",
+      "tests_run_tests_wasummary"
+    ],
+    "1": [
+      "src_main_initializedemodata",
+      "src_services_optitrackcache_service",
+      "src_services_optitrackcache_service_getstorageitem",
+      "src_services_optitrackcache_service_memorystore",
+      "src_services_optitrackcache_service_optitrackcacheservice",
+      "src_services_optitrackcache_service_optitrackcacheservice_clearoutbox",
+      "src_services_optitrackcache_service_optitrackcacheservice_enqueueoutbox",
+      "src_services_optitrackcache_service_optitrackcacheservice_getorders",
+      "src_services_optitrackcache_service_optitrackcacheservice_getoutbox",
+      "src_services_optitrackcache_service_optitrackcacheservice_ispurged",
+      "src_services_optitrackcache_service_optitrackcacheservice_purgedata",
+      "src_services_optitrackcache_service_optitrackcacheservice_resetpurgefortesting",
+      "src_services_optitrackcache_service_optitrackcacheservice_saveorders",
+      "src_services_optitrackcache_service_removestorageitem",
+      "src_services_optitrackcache_service_setstorageitem"
+    ],
+    "2": [
+      "package",
+      "package_author",
+      "package_description",
+      "package_license",
+      "package_name",
+      "package_scripts",
+      "package_scripts_security_full",
+      "package_scripts_test",
+      "package_scripts_test_security",
+      "package_scripts_version_bump",
+      "package_type",
+      "package_version"
+    ],
+    "3": [
+      "src_core_lensometerqualitysentinel_lensometerqualitysentinel_auditdiopters",
+      "src_main_openlensometermodal",
+      "src_services_opticalorderservice_opticalorderservice_recordlensometerqualitycheck",
+      "src_services_opticalorderservice_opticalorderservice_verifyorderseal",
+      "src_utils_cryptoseal",
+      "src_utils_cryptoseal_cryptoseal",
+      "src_utils_cryptoseal_sha256sync",
+      "src_utils_cryptoseal_toutf8binarystring"
+    ],
+    "4": [
+      "src_main_attachdashboardevents",
+      "src_main_attachtransposerevents",
+      "src_main_rendercatalog",
+      "src_main_renderdashboard",
+      "src_main_rendertransposertool",
+      "src_main_switchtab",
+      "src_utils_sanitizer",
+      "src_utils_sanitizer_sanitizer"
+    ],
+    "5": [
+      "src_core_materialscatalog_materialscatalog_getmaterial",
+      "src_main_attachprescriptionsevents",
+      "src_main_initapp",
+      "src_main_opennewordermodal",
+      "src_main_renderlensometerqc",
+      "src_main_renderprescriptions",
+      "src_services_opticalorderservice_opticalorderservice_sendtoworkshop"
+    ],
+    "6": [
+      "src_core_lensometerqualitysentinel",
+      "src_core_lensometerqualitysentinel_lensometerqualitysentinel",
+      "src_core_opticaltransposer",
+      "src_main",
+      "src_main_state",
+      "src_services_opticalorderservice"
+    ],
+    "7": [
+      "src_core_materialscatalog",
+      "src_core_materialscatalog_lens_materials",
+      "src_core_materialscatalog_lens_treatments",
+      "src_core_materialscatalog_materialscatalog",
+      "src_core_materialscatalog_materialscatalog_gettreatment",
+      "src_core_materialscatalog_materialscatalog_suggestmaterial"
+    ],
+    "8": [
+      "src_core_opticaltransposer_opticaltransposer",
+      "src_core_opticaltransposer_opticaltransposer_computenearformula",
+      "src_core_opticaltransposer_opticaltransposer_transpose",
+      "src_core_opticaltransposer_opticaltransposer_validatephysiologicalranges",
+      "src_services_opticalorderservice_opticalorderservice_createorder"
+    ],
+    "9": [
+      "src_main_attachsettlementevents",
+      "src_main_rendersettlement",
+      "src_utils_formatters",
+      "src_utils_formatters_formatters"
+    ],
+    "10": [
+      "src_services_whatsappopticnotifier_service",
+      "src_services_whatsappopticnotifier_service_whatsappopticnotifierservice",
+      "src_services_whatsappopticnotifier_service_whatsappopticnotifierservice_notifyglassesready",
+      "src_services_whatsappopticnotifier_service_whatsappopticnotifierservice_notifyprescriptionsummary"
+    ],
+    "11": [
+      "src_main_opendeliverymodal",
+      "src_services_opticalorderservice_opticalorderservice",
+      "src_services_opticalorderservice_opticalorderservice_deliverorder"
+    ],
+    "12": [
+      "src_services_exportservice",
+      "src_services_exportservice_exportservice",
+      "src_services_exportservice_exportservice_exporttoexcelcsv"
+    ]
+  },
+  "cohesion": {
+    "0": 0.041666666666666664,
+    "1": 0.2571428571428571,
+    "2": 0.16666666666666666,
+    "3": 0.25,
+    "4": 0.39285714285714285,
+    "5": 0.3333333333333333,
+    "6": 0.6,
+    "7": 0.3333333333333333,
+    "8": 0.6,
+    "9": 0.5,
+    "10": 0.5,
+    "11": 0.6666666666666666,
+    "12": 0.6666666666666666
+  },
+  "gods": [
+    {
+      "id": "src_main_switchtab",
+      "label": "switchTab()",
+      "degree": 11
+    },
+    {
+      "id": "src_services_optitrackcache_service_optitrackcacheservice",
+      "label": "OptiTrackCacheService",
+      "degree": 11
+    },
+    {
+      "id": "src_utils_sanitizer_sanitizer",
+      "label": "Sanitizer",
+      "degree": 10
+    },
+    {
+      "id": "src_main_initializedemodata",
+      "label": "initializeDemoData()",
+      "degree": 9
+    },
+    {
+      "id": "src_utils_formatters_formatters",
+      "label": "Formatters",
+      "degree": 9
+    },
+    {
+      "id": "src_main_opennewordermodal",
+      "label": "openNewOrderModal()",
+      "degree": 8
+    },
+    {
+      "id": "src_services_opticalorderservice_opticalorderservice",
+      "label": "OpticalOrderService",
+      "degree": 8
+    },
+    {
+      "id": "src_core_opticaltransposer_opticaltransposer",
+      "label": "OpticalTransposer",
+      "degree": 7
+    },
+    {
+      "id": "src_main_renderprescriptions",
+      "label": "renderPrescriptions()",
+      "degree": 7
+    },
+    {
+      "id": "src_main_attachprescriptionsevents",
+      "label": "attachPrescriptionsEvents()",
+      "degree": 7
+    }
+  ],
+  "surprises": [
+    {
+      "source": "renderDashboard()",
+      "target": "Formatters",
+      "source_files": [
+        "src/main.js",
+        "src/utils/formatters.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "renderPrescriptions()",
+      "target": "Formatters",
+      "source_files": [
+        "src/main.js",
+        "src/utils/formatters.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "renderPrescriptions()",
+      "target": "Sanitizer",
+      "source_files": [
+        "src/main.js",
+        "src/utils/sanitizer.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "attachTransposerEvents()",
+      "target": "Formatters",
+      "source_files": [
+        "src/main.js",
+        "src/utils/formatters.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "renderLensometerQC()",
+      "target": "Formatters",
+      "source_files": [
+        "src/main.js",
+        "src/utils/formatters.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `OptiTrackCacheService` connect `Community 1` to `Community 0`, `Community 6`?",
+      "why": "High betweenness centrality (0.097) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `OpticalOrderService` connect `Community 11` to `Community 0`, `Community 3`, `Community 5`, `Community 6`, `Community 8`?",
+      "why": "High betweenness centrality (0.044) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `MaterialsCatalog` connect `Community 7` to `Community 0`, `Community 5`, `Community 6`?",
+      "why": "High betweenness centrality (0.041) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `name`, `version`, `description` to the rest of the system?",
+      "why": "58 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected."
+    }
+  ]
+}
