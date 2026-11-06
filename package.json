@@ -1,6 +1,6 @@
 {
   "name": "optitrack",
-  "version": "1.0.00",
+  "version": "1.0.01",
   "description": "OptiTrack - Gestión Integral de Cadenas de Ópticas, Contactología & Talleres de Tallado Oftálmico",
   "type": "module",
   "scripts": {

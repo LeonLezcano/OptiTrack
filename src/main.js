@@ -120,22 +120,22 @@ function renderDashboard() {
     <div class="space-y-6">
       <!-- KPIs Superiores -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        <div class="bg-slate-900/80 p-5 rounded-2xl border border-slate-800 shadow-xl">
+        <div class="bg-[#121722]/90 p-5 rounded-2xl border border-slate-800 shadow-xl">
           <p class="text-xs uppercase tracking-wider text-slate-400 font-bold">Órdenes Activas</p>
           <p class="text-3xl font-extrabold text-blue-400 mt-2">${totalOrders}</p>
           <p class="text-xs text-slate-500 mt-1">Con Receta Oftálmica Digital</p>
         </div>
-        <div class="bg-slate-900/80 p-5 rounded-2xl border border-slate-800 shadow-xl">
+        <div class="bg-[#121722]/90 p-5 rounded-2xl border border-slate-800 shadow-xl">
           <p class="text-xs uppercase tracking-wider text-slate-400 font-bold">En Taller de Biselado</p>
-          <p class="text-3xl font-extrabold text-purple-400 mt-2">${inWorkshop}</p>
+          <p class="text-3xl font-extrabold text-sky-400 mt-2">${inWorkshop}</p>
           <p class="text-xs text-slate-500 mt-1">Sobres con SLA en Ejecución</p>
         </div>
-        <div class="bg-slate-900/80 p-5 rounded-2xl border border-slate-800 shadow-xl">
+        <div class="bg-[#121722]/90 p-5 rounded-2xl border border-slate-800 shadow-xl">
           <p class="text-xs uppercase tracking-wider text-slate-400 font-bold">Listas para Retiro</p>
           <p class="text-3xl font-extrabold text-emerald-400 mt-2">${readyForPickUp}</p>
           <p class="text-xs text-slate-500 mt-1">Control Fronto OK · Notificar WA</p>
         </div>
-        <div class="bg-slate-900/80 p-5 rounded-2xl border border-slate-800 shadow-xl">
+        <div class="bg-[#121722]/90 p-5 rounded-2xl border border-slate-800 shadow-xl">
           <p class="text-xs uppercase tracking-wider text-slate-400 font-bold">Saldos por Cobrar</p>
           <p class="text-2xl font-extrabold text-amber-400 mt-2">${Formatters.currencyARS(totalBalanceDue)}</p>
           <p class="text-xs text-slate-500 mt-1">A percibir contra entrega</p>
@@ -144,7 +144,7 @@ function renderDashboard() {
 
       <!-- Accesos Rápidos -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div class="bg-slate-900/60 p-5 rounded-2xl border border-slate-800/80 flex items-center justify-between">
+        <div class="bg-[#121722]/60 p-5 rounded-2xl border border-slate-800/80 flex items-center justify-between">
           <div>
             <h3 class="text-white font-bold text-base flex items-center gap-2">👓 Nueva Receta</h3>
             <p class="text-xs text-slate-400 mt-1">Cargar prescripción OD/OI con transposición automática.</p>
@@ -153,16 +153,16 @@ function renderDashboard() {
             + Cargar Receta
           </button>
         </div>
-        <div class="bg-slate-900/60 p-5 rounded-2xl border border-slate-800/80 flex items-center justify-between">
+        <div class="bg-[#121722]/60 p-5 rounded-2xl border border-slate-800/80 flex items-center justify-between">
           <div>
             <h3 class="text-white font-bold text-base flex items-center gap-2">🔄 Transpositor Óptico</h3>
             <p class="text-xs text-slate-400 mt-1">Herramienta de conversión cilindro (+) a (-) y adición.</p>
           </div>
-          <button data-tab="transposer-tool" class="nav-trigger px-4 py-2.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-semibold text-xs shadow-lg shadow-purple-600/30 whitespace-nowrap">
+          <button data-tab="transposer-tool" class="nav-trigger px-4 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-xs shadow-lg shadow-indigo-600/30 whitespace-nowrap">
             Abrir Conversor
           </button>
         </div>
-        <div class="bg-slate-900/60 p-5 rounded-2xl border border-slate-800/80 flex items-center justify-between">
+        <div class="bg-[#121722]/60 p-5 rounded-2xl border border-slate-800/80 flex items-center justify-between">
           <div>
             <h3 class="text-white font-bold text-base flex items-center gap-2">🔬 Control Fronto QC</h3>
             <p class="text-xs text-slate-400 mt-1">Auditar dioptrías según norma ISO 8980-1 con SHA-256.</p>
@@ -174,14 +174,14 @@ function renderDashboard() {
       </div>
 
       <!-- Tabla de Órdenes Recientes -->
-      <div class="bg-slate-900/80 p-6 rounded-2xl border border-slate-800 shadow-xl">
+      <div class="bg-[#121722]/90 p-6 rounded-2xl border border-slate-800 shadow-xl">
         <div class="flex items-center justify-between mb-4">
           <h3 class="text-lg font-bold text-white">Órdenes de Trabajo en Curso</h3>
           <span class="text-xs px-2.5 py-1 bg-blue-500/10 text-blue-400 rounded-lg border border-blue-500/20 font-mono">Trazabilidad de Taller</span>
         </div>
         <div class="overflow-x-auto">
           <table class="w-full text-left text-xs text-slate-300">
-            <thead class="bg-slate-950/60 text-slate-400 uppercase text-[10px] tracking-wider border-b border-slate-800">
+            <thead class="bg-[#0b0f17]/60 text-slate-400 uppercase text-[10px] tracking-wider border-b border-slate-800">
               <tr>
                 <th class="py-3 px-3">ID Orden</th>
                 <th class="py-3 px-3">Paciente</th>
@@ -267,7 +267,7 @@ function renderPrescriptions() {
           const badge = Formatters.orderStatusBadge(o.status);
           const mat = MaterialsCatalog.getMaterial(o.lensMaterial);
           return `
-            <div class="bg-slate-900/80 p-5 rounded-2xl border border-slate-800 shadow-xl space-y-4">
+            <div class="bg-[#121722]/90 p-5 rounded-2xl border border-slate-800 shadow-xl space-y-4">
               <div class="flex items-start justify-between">
                 <div>
                   <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-blue-500/20 text-blue-400 font-mono">${Sanitizer.escapeHTML(o.orderId)}</span>
@@ -280,7 +280,7 @@ function renderPrescriptions() {
               </div>
 
               <!-- Ficha Técnica OD / OI -->
-              <div class="p-3 bg-slate-950 rounded-xl border border-slate-800/80 space-y-2 text-xs">
+              <div class="p-3 bg-[#0b0f17] rounded-xl border border-slate-800/80 space-y-2 text-xs">
                 <div class="flex justify-between items-center text-slate-400 font-bold border-b border-slate-800 pb-1 text-[11px]">
                   <span>OJO / DIOPTRÍAS</span>
                   <span>ESFERA</span>
@@ -333,7 +333,7 @@ function renderPrescriptions() {
               </div>
 
               <!-- Desglose Financiero -->
-              <div class="grid grid-cols-3 gap-2 p-2.5 bg-slate-950/60 rounded-xl border border-slate-800 text-[11px] text-center">
+              <div class="grid grid-cols-3 gap-2 p-2.5 bg-[#0b0f17]/60 rounded-xl border border-slate-800 text-[11px] text-center">
                 <div>
                   <span class="text-slate-500 uppercase text-[9px] block">Total</span>
                   <strong class="text-white">${Formatters.currencyARS(o.pricing?.totalAmount)}</strong>
@@ -428,38 +428,38 @@ function renderTransposerTool() {
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <!-- Calculadora de Entrada -->
-        <div class="bg-slate-900/80 p-6 rounded-2xl border border-slate-800 shadow-xl space-y-4">
+        <div class="bg-[#121722]/90 p-6 rounded-2xl border border-slate-800 shadow-xl space-y-4">
           <h3 class="text-sm font-bold text-white uppercase tracking-wider">Fórmula Prescrita Original</h3>
 
           <div class="grid grid-cols-3 gap-3 text-xs">
             <div>
               <label class="block text-slate-400 mb-1">Esfera (D)</label>
-              <input type="number" id="trans-sphere" step="0.25" value="2.00" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-white font-mono text-center">
+              <input type="number" id="trans-sphere" step="0.25" value="2.00" class="w-full bg-[#0b0f17] border border-slate-800 rounded-xl px-3 py-2 text-white font-mono text-center">
             </div>
             <div>
               <label class="block text-slate-400 mb-1">Cilindro (D)</label>
-              <input type="number" id="trans-cylinder" step="0.25" value="-1.50" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-white font-mono text-center">
+              <input type="number" id="trans-cylinder" step="0.25" value="-1.50" class="w-full bg-[#0b0f17] border border-slate-800 rounded-xl px-3 py-2 text-white font-mono text-center">
             </div>
             <div>
               <label class="block text-slate-400 mb-1">Eje (°)</label>
-              <input type="number" id="trans-axis" min="0" max="180" value="80" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-white font-mono text-center">
+              <input type="number" id="trans-axis" min="0" max="180" value="80" class="w-full bg-[#0b0f17] border border-slate-800 rounded-xl px-3 py-2 text-white font-mono text-center">
             </div>
           </div>
 
           <div>
             <label class="block text-slate-400 mb-1 text-xs">Adición Presbicia (Lejos a Cerca)</label>
-            <input type="number" id="trans-addition" step="0.25" min="0" max="4" value="1.75" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-white font-mono text-center">
+            <input type="number" id="trans-addition" step="0.25" min="0" max="4" value="1.75" class="w-full bg-[#0b0f17] border border-slate-800 rounded-xl px-3 py-2 text-white font-mono text-center">
           </div>
 
-          <button id="btn-calc-transpose" class="w-full py-3 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-bold text-xs uppercase tracking-wider shadow-lg shadow-purple-600/30">
+          <button id="btn-calc-transpose" class="w-full py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs uppercase tracking-wider shadow-lg shadow-indigo-600/30">
             ⚡ Calcular Transposición & Visión Cercana
           </button>
         </div>
 
         <!-- Panel de Resultado -->
-        <div class="bg-slate-900/80 p-6 rounded-2xl border border-slate-800 shadow-xl space-y-4 flex flex-col justify-between">
+        <div class="bg-[#121722]/90 p-6 rounded-2xl border border-slate-800 shadow-xl space-y-4 flex flex-col justify-between">
           <div>
-            <span class="text-[10px] uppercase font-bold text-purple-400">Fórmula Transpuesta para Laboratorio</span>
+            <span class="text-[10px] uppercase font-bold text-sky-400">Fórmula Transpuesta para Laboratorio</span>
             <div id="transposed-result-box" class="mt-2 p-5 rounded-xl bg-purple-950/40 border border-purple-800/60 font-mono text-center space-y-2">
               <p class="text-2xl font-black text-white">+0.50 +1.50 x 170°</p>
               <p class="text-xs text-purple-300">Esfera: +0.50 D · Cilindro: +1.50 D · Eje: 170°</p>
@@ -535,9 +535,9 @@ function renderLensometerQC() {
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <!-- Panel Informativo de Tolerancias -->
-        <div class="bg-slate-900/80 p-5 rounded-2xl border border-slate-800 shadow-xl space-y-3 text-xs">
+        <div class="bg-[#121722]/90 p-5 rounded-2xl border border-slate-800 shadow-xl space-y-3 text-xs">
           <h3 class="font-bold text-white uppercase text-xs tracking-wider">Tolerancias Oficiales ISO 8980-1</h3>
-          <div class="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-2">
+          <div class="p-3 bg-[#0b0f17] rounded-xl border border-slate-800 space-y-2">
             <div>
               <strong class="text-emerald-400">Potencia Esférica:</strong>
               <p class="text-slate-400">Hasta ±6.00 D: tolerancia de ±0.12 D.<br>Superior a ±6.00 D: tolerancia de ±0.18 D.</p>
@@ -557,7 +557,7 @@ function renderLensometerQC() {
         <div class="md:col-span-2 space-y-4">
           <h3 class="font-bold text-white text-sm">Anteojos Listos para Verificación en Banco de Taller</h3>
           ${state.orders.map(o => `
-            <div class="bg-slate-900/80 p-5 rounded-2xl border border-slate-800 shadow-xl space-y-3">
+            <div class="bg-[#121722]/90 p-5 rounded-2xl border border-slate-800 shadow-xl space-y-3">
               <div class="flex items-start justify-between">
                 <div>
                   <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-blue-500/20 text-blue-400 font-mono">${Sanitizer.escapeHTML(o.orderId)}</span>
@@ -569,7 +569,7 @@ function renderLensometerQC() {
                 </span>
               </div>
 
-              <div class="grid grid-cols-2 gap-3 p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs font-mono">
+              <div class="grid grid-cols-2 gap-3 p-3 bg-[#0b0f17] rounded-xl border border-slate-800 text-xs font-mono">
                 <div>
                   <span class="text-slate-500 block text-[10px]">Prescripción OD:</span>
                   <span class="text-white">${Formatters.diopter(o.odFormula?.sphere)} ${Formatters.diopter(o.odFormula?.cylinder)} x ${Formatters.axis(o.odFormula?.axis)}</span>
@@ -618,7 +618,7 @@ function renderCatalog() {
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         ${Object.values(LENS_MATERIALS).map(m => `
-          <div class="bg-slate-900/80 p-5 rounded-2xl border border-slate-800 shadow-xl space-y-3">
+          <div class="bg-[#121722]/90 p-5 rounded-2xl border border-slate-800 shadow-xl space-y-3">
             <div class="flex items-start justify-between">
               <div>
                 <h3 class="text-base font-bold text-white">${Sanitizer.escapeHTML(m.name)}</h3>
@@ -628,7 +628,7 @@ function renderCatalog() {
                 Abbe: ${m.abbeNumber}
               </span>
             </div>
-            <div class="p-3 bg-slate-950 rounded-xl border border-slate-800 text-xs space-y-1">
+            <div class="p-3 bg-[#0b0f17] rounded-xl border border-slate-800 text-xs space-y-1">
               <p class="text-slate-300"><strong>Recomendado:</strong> ${Sanitizer.escapeHTML(m.recommendedFor)}</p>
               <p class="text-slate-400"><strong>Resistencia a Impactos:</strong> ${Sanitizer.escapeHTML(m.impactResistance)}</p>
             </div>
@@ -641,8 +641,8 @@ function renderCatalog() {
         <h3 class="text-sm font-bold text-white uppercase tracking-wider mb-4">Tratamientos y Recubrimientos</h3>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
           ${Object.values(LENS_TREATMENTS).map(t => `
-            <div class="p-4 bg-slate-900/60 rounded-xl border border-slate-800/80 text-xs">
-              <h4 class="font-bold text-purple-400 text-sm">${Sanitizer.escapeHTML(t.name)}</h4>
+            <div class="p-4 bg-[#121722]/60 rounded-xl border border-slate-800/80 text-xs">
+              <h4 class="font-bold text-sky-400 text-sm">${Sanitizer.escapeHTML(t.name)}</h4>
               <p class="text-slate-300 mt-1">${Sanitizer.escapeHTML(t.description)}</p>
             </div>
           `).join('')}
@@ -670,9 +670,9 @@ function renderSettlement() {
         </button>
       </div>
 
-      <div class="bg-slate-900/80 p-6 rounded-2xl border border-slate-800 shadow-xl overflow-x-auto">
+      <div class="bg-[#121722]/90 p-6 rounded-2xl border border-slate-800 shadow-xl overflow-x-auto">
         <table class="w-full text-left text-xs text-slate-300">
-          <thead class="bg-slate-950/60 text-slate-400 uppercase text-[10px] tracking-wider border-b border-slate-800">
+          <thead class="bg-[#0b0f17]/60 text-slate-400 uppercase text-[10px] tracking-wider border-b border-slate-800">
             <tr>
               <th class="py-3 px-3">ID Orden</th>
               <th class="py-3 px-3">Paciente</th>
@@ -876,7 +876,7 @@ export function switchTab(tabId) {
     if (btn.getAttribute('data-tab') === tabId) {
       btn.className = 'px-4 py-2 rounded-xl text-sm font-semibold bg-blue-600 text-white shadow-lg shadow-blue-600/30 flex items-center gap-2';
     } else {
-      btn.className = 'px-4 py-2 rounded-xl text-sm font-semibold bg-slate-900/60 hover:bg-slate-800 text-slate-400 hover:text-slate-200 border border-slate-800/80 flex items-center gap-2';
+      btn.className = 'px-4 py-2 rounded-xl text-sm font-semibold bg-[#121722]/60 hover:bg-slate-800 text-slate-400 hover:text-slate-200 border border-slate-800/80 flex items-center gap-2';
     }
   });
 
