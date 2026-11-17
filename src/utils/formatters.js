@@ -54,47 +54,53 @@ export const Formatters = {
     const map = {
       'RECETA_INGRESADA': {
         label: 'Receta Ingresada',
-        bg: 'bg-blue-500/20',
-        text: 'text-blue-400',
+        bg: 'bg-blue-500/15',
+        text: 'text-blue-300',
         border: 'border-blue-500/40',
-        icon: '📋'
+        dot: 'bg-blue-400',
+        icon: 'draft'
       },
       'EN_TALLER_CALIBRADO': {
         label: 'En Taller / Biselado',
-        bg: 'bg-purple-500/20',
-        text: 'text-purple-400',
+        bg: 'bg-purple-500/15',
+        text: 'text-purple-300',
         border: 'border-purple-500/40',
-        icon: '⚙️'
+        dot: 'bg-purple-400',
+        icon: 'workshop'
       },
       'CONTROL_FRONTOMETRO': {
         label: 'Control Fronto OK',
-        bg: 'bg-cyan-500/20',
-        text: 'text-cyan-400',
+        bg: 'bg-cyan-500/15',
+        text: 'text-cyan-300',
         border: 'border-cyan-500/40',
-        icon: '🔬'
+        dot: 'bg-cyan-400',
+        icon: 'qc'
       },
       'LISTO_PARA_ENTREGA': {
         label: 'Listo para Retiro',
-        bg: 'bg-emerald-500/20',
-        text: 'text-emerald-400',
+        bg: 'bg-emerald-500/15',
+        text: 'text-emerald-300',
         border: 'border-emerald-500/40',
-        icon: '🟢'
+        dot: 'bg-emerald-400',
+        icon: 'ready'
       },
       'DELIVERED': {
         label: 'Adaptado y Entregado',
         bg: 'bg-slate-800',
         text: 'text-slate-300',
         border: 'border-slate-700',
-        icon: '✓'
+        dot: 'bg-slate-400',
+        icon: 'delivered'
       }
     };
 
     return map[status] || {
       label: status || 'Desconocido',
       bg: 'bg-slate-800',
-      text: 'text-slate-400',
+      text: 'text-slate-300',
       border: 'border-slate-700',
-      icon: '•'
+      dot: 'bg-slate-400',
+      icon: 'unknown'
     };
   }
 };

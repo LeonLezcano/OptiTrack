@@ -1,6 +1,6 @@
-# 👓 OptiTrack — Cadenas de Ópticas, Contactología & Talleres de Tallado Oftálmico
+# OptiTrack — Cadenas de Ópticas, Contactología & Talleres de Tallado Oftálmico
 
-> **AiAppFactory Standard · Versión v1.0.00**  
+> **AiAppFactory Standard · Sistema de Diseño y Operación Offline-First**  
 > *Gestión de Recetas Oftalmológicas OD/OI, Transposición Matemática de Cilindros, Sobres de Taller de Biselado, Control de Calidad en Frontofocómetro (Norma ISO 8980-1) con Sello SHA-256 y Liquidación Mixta B2B.*
 
 ---
@@ -42,11 +42,20 @@ Las cadenas de ópticas, centros de contactología y talleres de tallado oftálm
 
 ---
 
-## 🧪 Arnés de Pruebas Multi-Capa (75 Tests en 5 Capas)
+## 🎨 UX/UI, Accesibilidad y Arquitectura Offline-First
+
+- **Design System (`DESIGN.md`):** Escala tipográfica descendente (`h1 > h2 > h3 > body`), contraste WCAG AA verificado (`>= 4.5:1`), tarjetas aplanadas sin contenedores anidados ni halos de brillo, e iconografía SVG uniforme sin emojis decorativos en la interfaz.
+- **Accesibilidad & Móvil:** Navegación completa por teclado (`:focus-visible`, `role="tablist"`/`role="tab"`, `role="dialog"`, cierre con `Escape` y backdrop), etiquetas `<label for="...">` en todos los controles, áreas táctiles `>= 44px`, soporte `@media (prefers-reduced-motion: reduce)` y hojas de impresión limpias (`@media print`).
+- **Transparencia de Datos Demo:** Los registros de ejemplo precargados localmente se identifican explícitamente con `[DEMO]` y pueden purgarse desde la interfaz mediante `OptiTrackCacheService.purgeData()`.
+- **Offline-First & PWA:** CSS compilado localmente en `styles.css` (sin dependencias de CDN en tiempo de ejecución), manifiesto `manifest.json`, registro externo de Service Worker (`src/sw-register.js`) compatible con CSP estricta sin `'unsafe-inline'`, y precaché completo en `sw.js`.
+
+---
+
+## 🧪 Arnés de Pruebas Multi-Capa (82 Tests en 5 Capas)
 
 Ejecución de la suite completa:
 ```bash
-node tests/run_tests.js
+pnpm test
 ```
 - **Capa 1 (Unitarias & Fórmulas Oftálmicas):** Algoritmos de transposición, adición de cerca, rangos fisiológicos, catálogo de materiales y tolerancias ISO 8980-1.
 - **Capa 2 (Integración & Ciclo de Taller):** Sobres de taller, control fronto, sellos SHA-256, detección de alteraciones, entrega con firma ePOD y exportador CSV con BOM UTF-8.

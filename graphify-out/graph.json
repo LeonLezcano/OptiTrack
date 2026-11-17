@@ -4,15 +4,114 @@
   "graph": {},
   "nodes": [
     {
+      "label": "manifest.json",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "manifest",
+      "community": 5,
+      "norm_label": "manifest.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "manifest_name",
+      "community": 5,
+      "norm_label": "name"
+    },
+    {
+      "label": "short_name",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "manifest_short_name",
+      "community": 5,
+      "norm_label": "short_name"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "manifest_description",
+      "community": 5,
+      "norm_label": "description"
+    },
+    {
+      "label": "start_url",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "manifest_start_url",
+      "community": 5,
+      "norm_label": "start_url"
+    },
+    {
+      "label": "scope",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "manifest_scope",
+      "community": 5,
+      "norm_label": "scope"
+    },
+    {
+      "label": "display",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "manifest_display",
+      "community": 5,
+      "norm_label": "display"
+    },
+    {
+      "label": "background_color",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "manifest_background_color",
+      "community": 5,
+      "norm_label": "background_color"
+    },
+    {
+      "label": "theme_color",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "manifest_theme_color",
+      "community": 5,
+      "norm_label": "theme_color"
+    },
+    {
+      "label": "icons",
+      "file_type": "code",
+      "source_file": "manifest.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "manifest_icons",
+      "community": 5,
+      "norm_label": "icons"
+    },
+    {
       "label": "package.json",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "package.json",
       "id": "package",
-      "community_name": "Community 2"
+      "community": 4,
+      "norm_label": "package.json"
     },
     {
       "label": "name",
@@ -20,10 +119,9 @@
       "source_file": "package.json",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "name",
       "id": "package_name",
-      "community_name": "Community 2"
+      "community": 4,
+      "norm_label": "name"
     },
     {
       "label": "version",
@@ -31,10 +129,9 @@
       "source_file": "package.json",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "version",
       "id": "package_version",
-      "community_name": "Community 2"
+      "community": 4,
+      "norm_label": "version"
     },
     {
       "label": "description",
@@ -42,10 +139,9 @@
       "source_file": "package.json",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "description",
       "id": "package_description",
-      "community_name": "Community 2"
+      "community": 4,
+      "norm_label": "description"
     },
     {
       "label": "type",
@@ -53,10 +149,9 @@
       "source_file": "package.json",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "type",
       "id": "package_type",
-      "community_name": "Community 2"
+      "community": 4,
+      "norm_label": "type"
     },
     {
       "label": "scripts",
@@ -64,10 +159,9 @@
       "source_file": "package.json",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "scripts",
       "id": "package_scripts",
-      "community_name": "Community 2"
+      "community": 4,
+      "norm_label": "scripts"
     },
     {
       "label": "test",
@@ -75,10 +169,9 @@
       "source_file": "package.json",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "test",
       "id": "package_scripts_test",
-      "community_name": "Community 2"
+      "community": 4,
+      "norm_label": "test"
     },
     {
       "label": "test:security",
@@ -86,10 +179,9 @@
       "source_file": "package.json",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "test:security",
       "id": "package_scripts_test_security",
-      "community_name": "Community 2"
+      "community": 4,
+      "norm_label": "test:security"
     },
     {
       "label": "security:full",
@@ -97,10 +189,9 @@
       "source_file": "package.json",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "security:full",
       "id": "package_scripts_security_full",
-      "community_name": "Community 2"
+      "community": 4,
+      "norm_label": "security:full"
     },
     {
       "label": "version:bump",
@@ -108,10 +199,9 @@
       "source_file": "package.json",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "version:bump",
       "id": "package_scripts_version_bump",
-      "community_name": "Community 2"
+      "community": 4,
+      "norm_label": "version:bump"
     },
     {
       "label": "author",
@@ -119,10 +209,9 @@
       "source_file": "package.json",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "author",
       "id": "package_author",
-      "community_name": "Community 2"
+      "community": 4,
+      "norm_label": "author"
     },
     {
       "label": "license",
@@ -130,10 +219,9 @@
       "source_file": "package.json",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 2,
-      "norm_label": "license",
       "id": "package_license",
-      "community_name": "Community 2"
+      "community": 4,
+      "norm_label": "license"
     },
     {
       "label": "lensometerQualitySentinel.js",
@@ -141,10 +229,9 @@
       "source_file": "src/core/lensometerQualitySentinel.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
-      "norm_label": "lensometerqualitysentinel.js",
       "id": "src_core_lensometerqualitysentinel",
-      "community_name": "Community 6"
+      "community": 2,
+      "norm_label": "lensometerqualitysentinel.js"
     },
     {
       "label": "LensometerQualitySentinel",
@@ -152,10 +239,9 @@
       "source_file": "src/core/lensometerQualitySentinel.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 6,
-      "norm_label": "lensometerqualitysentinel",
       "id": "src_core_lensometerqualitysentinel_lensometerqualitysentinel",
-      "community_name": "Community 6"
+      "community": 2,
+      "norm_label": "lensometerqualitysentinel"
     },
     {
       "label": ".auditDiopters()",
@@ -163,10 +249,9 @@
       "source_file": "src/core/lensometerQualitySentinel.js",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": ".auditdiopters()",
       "id": "src_core_lensometerqualitysentinel_lensometerqualitysentinel_auditdiopters",
-      "community_name": "Community 3"
+      "community": 2,
+      "norm_label": ".auditdiopters()"
     },
     {
       "label": "materialsCatalog.js",
@@ -174,10 +259,9 @@
       "source_file": "src/core/materialsCatalog.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 7,
-      "norm_label": "materialscatalog.js",
       "id": "src_core_materialscatalog",
-      "community_name": "Community 7"
+      "community": 6,
+      "norm_label": "materialscatalog.js"
     },
     {
       "label": "LENS_MATERIALS",
@@ -185,10 +269,9 @@
       "source_file": "src/core/materialsCatalog.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 7,
-      "norm_label": "lens_materials",
       "id": "src_core_materialscatalog_lens_materials",
-      "community_name": "Community 7"
+      "community": 6,
+      "norm_label": "lens_materials"
     },
     {
       "label": "LENS_TREATMENTS",
@@ -196,10 +279,9 @@
       "source_file": "src/core/materialsCatalog.js",
       "source_location": "L53",
       "_origin": "ast",
-      "community": 7,
-      "norm_label": "lens_treatments",
       "id": "src_core_materialscatalog_lens_treatments",
-      "community_name": "Community 7"
+      "community": 6,
+      "norm_label": "lens_treatments"
     },
     {
       "label": "MaterialsCatalog",
@@ -207,10 +289,9 @@
       "source_file": "src/core/materialsCatalog.js",
       "source_location": "L76",
       "_origin": "ast",
-      "community": 7,
-      "norm_label": "materialscatalog",
       "id": "src_core_materialscatalog_materialscatalog",
-      "community_name": "Community 7"
+      "community": 6,
+      "norm_label": "materialscatalog"
     },
     {
       "label": ".getMaterial()",
@@ -218,10 +299,9 @@
       "source_file": "src/core/materialsCatalog.js",
       "source_location": "L77",
       "_origin": "ast",
-      "community": 5,
-      "norm_label": ".getmaterial()",
       "id": "src_core_materialscatalog_materialscatalog_getmaterial",
-      "community_name": "Community 5"
+      "community": 6,
+      "norm_label": ".getmaterial()"
     },
     {
       "label": ".getTreatment()",
@@ -229,10 +309,9 @@
       "source_file": "src/core/materialsCatalog.js",
       "source_location": "L81",
       "_origin": "ast",
-      "community": 7,
-      "norm_label": ".gettreatment()",
       "id": "src_core_materialscatalog_materialscatalog_gettreatment",
-      "community_name": "Community 7"
+      "community": 6,
+      "norm_label": ".gettreatment()"
     },
     {
       "label": ".suggestMaterial()",
@@ -240,10 +319,9 @@
       "source_file": "src/core/materialsCatalog.js",
       "source_location": "L85",
       "_origin": "ast",
-      "community": 7,
-      "norm_label": ".suggestmaterial()",
       "id": "src_core_materialscatalog_materialscatalog_suggestmaterial",
-      "community_name": "Community 7"
+      "community": 6,
+      "norm_label": ".suggestmaterial()"
     },
     {
       "label": "opticalTransposer.js",
@@ -251,10 +329,9 @@
       "source_file": "src/core/opticalTransposer.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
-      "norm_label": "opticaltransposer.js",
       "id": "src_core_opticaltransposer",
-      "community_name": "Community 6"
+      "community": 2,
+      "norm_label": "opticaltransposer.js"
     },
     {
       "label": "OpticalTransposer",
@@ -262,10 +339,9 @@
       "source_file": "src/core/opticalTransposer.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 8,
-      "norm_label": "opticaltransposer",
       "id": "src_core_opticaltransposer_opticaltransposer",
-      "community_name": "Community 8"
+      "community": 2,
+      "norm_label": "opticaltransposer"
     },
     {
       "label": ".transpose()",
@@ -273,10 +349,9 @@
       "source_file": "src/core/opticalTransposer.js",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 8,
-      "norm_label": ".transpose()",
       "id": "src_core_opticaltransposer_opticaltransposer_transpose",
-      "community_name": "Community 8"
+      "community": 2,
+      "norm_label": ".transpose()"
     },
     {
       "label": ".computeNearFormula()",
@@ -284,10 +359,9 @@
       "source_file": "src/core/opticalTransposer.js",
       "source_location": "L47",
       "_origin": "ast",
-      "community": 8,
-      "norm_label": ".computenearformula()",
       "id": "src_core_opticaltransposer_opticaltransposer_computenearformula",
-      "community_name": "Community 8"
+      "community": 2,
+      "norm_label": ".computenearformula()"
     },
     {
       "label": ".validatePhysiologicalRanges()",
@@ -295,10 +369,9 @@
       "source_file": "src/core/opticalTransposer.js",
       "source_location": "L62",
       "_origin": "ast",
-      "community": 8,
-      "norm_label": ".validatephysiologicalranges()",
       "id": "src_core_opticaltransposer_opticaltransposer_validatephysiologicalranges",
-      "community_name": "Community 8"
+      "community": 2,
+      "norm_label": ".validatephysiologicalranges()"
     },
     {
       "label": "main.js",
@@ -306,197 +379,329 @@
       "source_file": "src/main.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
-      "norm_label": "main.js",
       "id": "src_main",
-      "community_name": "Community 6"
+      "community": 1,
+      "norm_label": "main.js"
     },
     {
       "label": "state",
       "file_type": "code",
       "source_file": "src/main.js",
-      "source_location": "L16",
+      "source_location": "L15",
       "_origin": "ast",
-      "community": 6,
-      "norm_label": "state",
       "id": "src_main_state",
-      "community_name": "Community 6"
+      "community": 1,
+      "norm_label": "state"
+    },
+    {
+      "label": "SVG_ICONS",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "src_main_svg_icons",
+      "community": 1,
+      "norm_label": "svg_icons"
+    },
+    {
+      "label": "renderStatusBadge()",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "src_main_renderstatusbadge",
+      "community": 1,
+      "norm_label": "renderstatusbadge()"
+    },
+    {
+      "label": "renderDemoBadge()",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "src_main_renderdemobadge",
+      "community": 1,
+      "norm_label": "renderdemobadge()"
+    },
+    {
+      "label": "showGlobalError()",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "src_main_showglobalerror",
+      "community": 1,
+      "norm_label": "showglobalerror()"
+    },
+    {
+      "label": "showStatusMessage()",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L65",
+      "_origin": "ast",
+      "id": "src_main_showstatusmessage",
+      "community": 1,
+      "norm_label": "showstatusmessage()"
+    },
+    {
+      "label": "showModalError()",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L77",
+      "_origin": "ast",
+      "id": "src_main_showmodalerror",
+      "community": 1,
+      "norm_label": "showmodalerror()"
+    },
+    {
+      "label": "parseNumericInput()",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L95",
+      "_origin": "ast",
+      "id": "src_main_parsenumericinput",
+      "community": 2,
+      "norm_label": "parsenumericinput()"
+    },
+    {
+      "label": "generatePatientId()",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L111",
+      "_origin": "ast",
+      "id": "src_main_generatepatientid",
+      "community": 2,
+      "norm_label": "generatepatientid()"
+    },
+    {
+      "label": "renderDemoNoticeBanner()",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L118",
+      "_origin": "ast",
+      "id": "src_main_renderdemonoticebanner",
+      "community": 1,
+      "norm_label": "renderdemonoticebanner()"
+    },
+    {
+      "label": "attachDemoPurgeListener()",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L135",
+      "_origin": "ast",
+      "id": "src_main_attachdemopurgelistener",
+      "community": 1,
+      "norm_label": "attachdemopurgelistener()"
     },
     {
       "label": "initializeDemoData()",
       "file_type": "code",
       "source_file": "src/main.js",
-      "source_location": "L22",
+      "source_location": "L145",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "initializedemodata()",
       "id": "src_main_initializedemodata",
-      "community_name": "Community 1"
+      "community": 3,
+      "norm_label": "initializedemodata()"
     },
     {
       "label": "renderDashboard()",
       "file_type": "code",
       "source_file": "src/main.js",
-      "source_location": "L109",
+      "source_location": "L247",
       "_origin": "ast",
-      "community": 4,
-      "norm_label": "renderdashboard()",
       "id": "src_main_renderdashboard",
-      "community_name": "Community 4"
+      "community": 1,
+      "norm_label": "renderdashboard()"
     },
     {
       "label": "attachDashboardEvents()",
       "file_type": "code",
       "source_file": "src/main.js",
-      "source_location": "L235",
+      "source_location": "L403",
       "_origin": "ast",
-      "community": 4,
-      "norm_label": "attachdashboardevents()",
       "id": "src_main_attachdashboardevents",
-      "community_name": "Community 4"
+      "community": 1,
+      "norm_label": "attachdashboardevents()"
     },
     {
       "label": "renderPrescriptions()",
       "file_type": "code",
       "source_file": "src/main.js",
-      "source_location": "L249",
+      "source_location": "L422",
       "_origin": "ast",
-      "community": 5,
-      "norm_label": "renderprescriptions()",
       "id": "src_main_renderprescriptions",
-      "community_name": "Community 5"
+      "community": 1,
+      "norm_label": "renderprescriptions()"
     },
     {
       "label": "attachPrescriptionsEvents()",
       "file_type": "code",
       "source_file": "src/main.js",
-      "source_location": "L379",
+      "source_location": "L591",
       "_origin": "ast",
-      "community": 5,
-      "norm_label": "attachprescriptionsevents()",
       "id": "src_main_attachprescriptionsevents",
-      "community_name": "Community 5"
+      "community": 1,
+      "norm_label": "attachprescriptionsevents()"
     },
     {
       "label": "renderTransposerTool()",
       "file_type": "code",
       "source_file": "src/main.js",
-      "source_location": "L418",
+      "source_location": "L642",
       "_origin": "ast",
-      "community": 4,
-      "norm_label": "rendertransposertool()",
       "id": "src_main_rendertransposertool",
-      "community_name": "Community 4"
+      "community": 1,
+      "norm_label": "rendertransposertool()"
     },
     {
       "label": "attachTransposerEvents()",
       "file_type": "code",
       "source_file": "src/main.js",
-      "source_location": "L489",
+      "source_location": "L719",
       "_origin": "ast",
-      "community": 4,
-      "norm_label": "attachtransposerevents()",
       "id": "src_main_attachtransposerevents",
-      "community_name": "Community 4"
+      "community": 2,
+      "norm_label": "attachtransposerevents()"
     },
     {
       "label": "renderLensometerQC()",
       "file_type": "code",
       "source_file": "src/main.js",
-      "source_location": "L525",
+      "source_location": "L773",
       "_origin": "ast",
-      "community": 5,
-      "norm_label": "renderlensometerqc()",
       "id": "src_main_renderlensometerqc",
-      "community_name": "Community 5"
+      "community": 1,
+      "norm_label": "renderlensometerqc()"
     },
     {
       "label": "renderCatalog()",
       "file_type": "code",
       "source_file": "src/main.js",
-      "source_location": "L608",
+      "source_location": "L882",
       "_origin": "ast",
-      "community": 4,
-      "norm_label": "rendercatalog()",
       "id": "src_main_rendercatalog",
-      "community_name": "Community 4"
+      "community": 1,
+      "norm_label": "rendercatalog()"
     },
     {
       "label": "renderSettlement()",
       "file_type": "code",
       "source_file": "src/main.js",
-      "source_location": "L657",
+      "source_location": "L934",
       "_origin": "ast",
-      "community": 9,
-      "norm_label": "rendersettlement()",
       "id": "src_main_rendersettlement",
-      "community_name": "Community 9"
+      "community": 1,
+      "norm_label": "rendersettlement()"
     },
     {
       "label": "attachSettlementEvents()",
       "file_type": "code",
       "source_file": "src/main.js",
-      "source_location": "L716",
+      "source_location": "L1007",
       "_origin": "ast",
-      "community": 9,
-      "norm_label": "attachsettlementevents()",
       "id": "src_main_attachsettlementevents",
-      "community_name": "Community 9"
+      "community": 1,
+      "norm_label": "attachsettlementevents()"
+    },
+    {
+      "label": "openModalElement()",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L1040",
+      "_origin": "ast",
+      "id": "src_main_openmodalelement",
+      "community": 1,
+      "norm_label": "openmodalelement()"
+    },
+    {
+      "label": "closeModalElement()",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L1051",
+      "_origin": "ast",
+      "id": "src_main_closemodalelement",
+      "community": 2,
+      "norm_label": "closemodalelement()"
+    },
+    {
+      "label": "closeAllModals()",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L1061",
+      "_origin": "ast",
+      "id": "src_main_closeallmodals",
+      "community": 2,
+      "norm_label": "closeallmodals()"
     },
     {
       "label": "openNewOrderModal()",
       "file_type": "code",
       "source_file": "src/main.js",
-      "source_location": "L743",
+      "source_location": "L1067",
       "_origin": "ast",
-      "community": 5,
-      "norm_label": "opennewordermodal()",
       "id": "src_main_opennewordermodal",
-      "community_name": "Community 5"
+      "community": 1,
+      "norm_label": "opennewordermodal()"
     },
     {
       "label": "openLensometerModal()",
       "file_type": "code",
       "source_file": "src/main.js",
-      "source_location": "L801",
+      "source_location": "L1073",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": "openlensometermodal()",
       "id": "src_main_openlensometermodal",
-      "community_name": "Community 3"
+      "community": 1,
+      "norm_label": "openlensometermodal()"
     },
     {
       "label": "openDeliveryModal()",
       "file_type": "code",
       "source_file": "src/main.js",
-      "source_location": "L842",
+      "source_location": "L1084",
       "_origin": "ast",
-      "community": 11,
-      "norm_label": "opendeliverymodal()",
       "id": "src_main_opendeliverymodal",
-      "community_name": "Community 11"
+      "community": 1,
+      "norm_label": "opendeliverymodal()"
+    },
+    {
+      "label": "setupModalListeners()",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L1101",
+      "_origin": "ast",
+      "id": "src_main_setupmodallisteners",
+      "community": 2,
+      "norm_label": "setupmodallisteners()"
     },
     {
       "label": "switchTab()",
       "file_type": "code",
       "source_file": "src/main.js",
-      "source_location": "L872",
+      "source_location": "L1293",
       "_origin": "ast",
-      "community": 4,
-      "norm_label": "switchtab()",
       "id": "src_main_switchtab",
-      "community_name": "Community 4"
+      "community": 1,
+      "norm_label": "switchtab()"
+    },
+    {
+      "label": "loadAppVersion()",
+      "file_type": "code",
+      "source_file": "src/main.js",
+      "source_location": "L1326",
+      "_origin": "ast",
+      "id": "src_main_loadappversion",
+      "community": 1,
+      "norm_label": "loadappversion()"
     },
     {
       "label": "initApp()",
       "file_type": "code",
       "source_file": "src/main.js",
-      "source_location": "L908",
+      "source_location": "L1342",
       "_origin": "ast",
-      "community": 5,
-      "norm_label": "initapp()",
       "id": "src_main_initapp",
-      "community_name": "Community 5"
+      "community": 1,
+      "norm_label": "initapp()"
     },
     {
       "label": "exportService.js",
@@ -504,10 +709,9 @@
       "source_file": "src/services/exportService.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 12,
-      "norm_label": "exportservice.js",
       "id": "src_services_exportservice",
-      "community_name": "Community 12"
+      "community": 8,
+      "norm_label": "exportservice.js"
     },
     {
       "label": "ExportService",
@@ -515,10 +719,9 @@
       "source_file": "src/services/exportService.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 12,
-      "norm_label": "exportservice",
       "id": "src_services_exportservice_exportservice",
-      "community_name": "Community 12"
+      "community": 8,
+      "norm_label": "exportservice"
     },
     {
       "label": ".exportToExcelCSV()",
@@ -526,10 +729,9 @@
       "source_file": "src/services/exportService.js",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 12,
-      "norm_label": ".exporttoexcelcsv()",
       "id": "src_services_exportservice_exportservice_exporttoexcelcsv",
-      "community_name": "Community 12"
+      "community": 8,
+      "norm_label": ".exporttoexcelcsv()"
     },
     {
       "label": "optiTrackCache.service.js",
@@ -537,10 +739,9 @@
       "source_file": "src/services/optiTrackCache.service.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "optitrackcache.service.js",
       "id": "src_services_optitrackcache_service",
-      "community_name": "Community 1"
+      "community": 3,
+      "norm_label": "optitrackcache.service.js"
     },
     {
       "label": "memoryStore",
@@ -548,142 +749,159 @@
       "source_file": "src/services/optiTrackCache.service.js",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "memorystore",
       "id": "src_services_optitrackcache_service_memorystore",
-      "community_name": "Community 1"
+      "community": 3,
+      "norm_label": "memorystore"
     },
     {
       "label": "getStorageItem()",
       "file_type": "code",
       "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L11",
+      "source_location": "L12",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "getstorageitem()",
       "id": "src_services_optitrackcache_service_getstorageitem",
-      "community_name": "Community 1"
+      "community": 3,
+      "norm_label": "getstorageitem()"
     },
     {
       "label": "setStorageItem()",
       "file_type": "code",
       "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L18",
+      "source_location": "L19",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "setstorageitem()",
       "id": "src_services_optitrackcache_service_setstorageitem",
-      "community_name": "Community 1"
+      "community": 3,
+      "norm_label": "setstorageitem()"
     },
     {
       "label": "removeStorageItem()",
       "file_type": "code",
       "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L26",
+      "source_location": "L27",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "removestorageitem()",
       "id": "src_services_optitrackcache_service_removestorageitem",
-      "community_name": "Community 1"
+      "community": 3,
+      "norm_label": "removestorageitem()"
+    },
+    {
+      "label": "safeParseJSON()",
+      "file_type": "code",
+      "source_file": "src/services/optiTrackCache.service.js",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "src_services_optitrackcache_service_safeparsejson",
+      "community": 3,
+      "norm_label": "safeparsejson()"
     },
     {
       "label": "OptiTrackCacheService",
       "file_type": "code",
       "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L34",
+      "source_location": "L46",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "optitrackcacheservice",
       "id": "src_services_optitrackcache_service_optitrackcacheservice",
-      "community_name": "Community 1"
+      "community": 3,
+      "norm_label": "optitrackcacheservice"
+    },
+    {
+      "label": ".getLastStorageError()",
+      "file_type": "code",
+      "source_file": "src/services/optiTrackCache.service.js",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "src_services_optitrackcache_service_optitrackcacheservice_getlaststorageerror",
+      "community": 3,
+      "norm_label": ".getlaststorageerror()"
+    },
+    {
+      "label": ".clearLastStorageError()",
+      "file_type": "code",
+      "source_file": "src/services/optiTrackCache.service.js",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "src_services_optitrackcache_service_optitrackcacheservice_clearlaststorageerror",
+      "community": 3,
+      "norm_label": ".clearlaststorageerror()"
     },
     {
       "label": ".isPurged()",
       "file_type": "code",
       "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L35",
+      "source_location": "L55",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": ".ispurged()",
       "id": "src_services_optitrackcache_service_optitrackcacheservice_ispurged",
-      "community_name": "Community 1"
+      "community": 3,
+      "norm_label": ".ispurged()"
     },
     {
       "label": ".purgeData()",
       "file_type": "code",
       "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L39",
+      "source_location": "L59",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": ".purgedata()",
       "id": "src_services_optitrackcache_service_optitrackcacheservice_purgedata",
-      "community_name": "Community 1"
+      "community": 3,
+      "norm_label": ".purgedata()"
     },
     {
       "label": ".resetPurgeForTesting()",
       "file_type": "code",
       "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L45",
+      "source_location": "L66",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": ".resetpurgefortesting()",
       "id": "src_services_optitrackcache_service_optitrackcacheservice_resetpurgefortesting",
-      "community_name": "Community 1"
+      "community": 3,
+      "norm_label": ".resetpurgefortesting()"
     },
     {
       "label": ".saveOrders()",
       "file_type": "code",
       "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L49",
+      "source_location": "L71",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": ".saveorders()",
       "id": "src_services_optitrackcache_service_optitrackcacheservice_saveorders",
-      "community_name": "Community 1"
+      "community": 3,
+      "norm_label": ".saveorders()"
     },
     {
       "label": ".getOrders()",
       "file_type": "code",
       "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L53",
+      "source_location": "L75",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": ".getorders()",
       "id": "src_services_optitrackcache_service_optitrackcacheservice_getorders",
-      "community_name": "Community 1"
+      "community": 3,
+      "norm_label": ".getorders()"
     },
     {
       "label": ".enqueueOutbox()",
       "file_type": "code",
       "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L59",
+      "source_location": "L81",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": ".enqueueoutbox()",
       "id": "src_services_optitrackcache_service_optitrackcacheservice_enqueueoutbox",
-      "community_name": "Community 1"
+      "community": 3,
+      "norm_label": ".enqueueoutbox()"
     },
     {
       "label": ".getOutbox()",
       "file_type": "code",
       "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L70",
+      "source_location": "L92",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": ".getoutbox()",
       "id": "src_services_optitrackcache_service_optitrackcacheservice_getoutbox",
-      "community_name": "Community 1"
+      "community": 3,
+      "norm_label": ".getoutbox()"
     },
     {
       "label": ".clearOutbox()",
       "file_type": "code",
       "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L75",
+      "source_location": "L97",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": ".clearoutbox()",
       "id": "src_services_optitrackcache_service_optitrackcacheservice_clearoutbox",
-      "community_name": "Community 1"
+      "community": 3,
+      "norm_label": ".clearoutbox()"
     },
     {
       "label": "opticalOrderService.js",
@@ -691,10 +909,9 @@
       "source_file": "src/services/opticalOrderService.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
-      "norm_label": "opticalorderservice.js",
       "id": "src_services_opticalorderservice",
-      "community_name": "Community 6"
+      "community": 2,
+      "norm_label": "opticalorderservice.js"
     },
     {
       "label": "OpticalOrderService",
@@ -702,10 +919,9 @@
       "source_file": "src/services/opticalOrderService.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 11,
-      "norm_label": "opticalorderservice",
       "id": "src_services_opticalorderservice_opticalorderservice",
-      "community_name": "Community 11"
+      "community": 2,
+      "norm_label": "opticalorderservice"
     },
     {
       "label": ".createOrder()",
@@ -713,10 +929,9 @@
       "source_file": "src/services/opticalOrderService.js",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 8,
-      "norm_label": ".createorder()",
       "id": "src_services_opticalorderservice_opticalorderservice_createorder",
-      "community_name": "Community 8"
+      "community": 2,
+      "norm_label": ".createorder()"
     },
     {
       "label": ".sendToWorkshop()",
@@ -724,10 +939,9 @@
       "source_file": "src/services/opticalOrderService.js",
       "source_location": "L95",
       "_origin": "ast",
-      "community": 5,
-      "norm_label": ".sendtoworkshop()",
       "id": "src_services_opticalorderservice_opticalorderservice_sendtoworkshop",
-      "community_name": "Community 5"
+      "community": 2,
+      "norm_label": ".sendtoworkshop()"
     },
     {
       "label": ".recordLensometerQualityCheck()",
@@ -735,10 +949,9 @@
       "source_file": "src/services/opticalOrderService.js",
       "source_location": "L114",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": ".recordlensometerqualitycheck()",
       "id": "src_services_opticalorderservice_opticalorderservice_recordlensometerqualitycheck",
-      "community_name": "Community 3"
+      "community": 2,
+      "norm_label": ".recordlensometerqualitycheck()"
     },
     {
       "label": ".deliverOrder()",
@@ -746,10 +959,9 @@
       "source_file": "src/services/opticalOrderService.js",
       "source_location": "L169",
       "_origin": "ast",
-      "community": 11,
-      "norm_label": ".deliverorder()",
       "id": "src_services_opticalorderservice_opticalorderservice_deliverorder",
-      "community_name": "Community 11"
+      "community": 2,
+      "norm_label": ".deliverorder()"
     },
     {
       "label": ".verifyOrderSeal()",
@@ -757,10 +969,9 @@
       "source_file": "src/services/opticalOrderService.js",
       "source_location": "L196",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": ".verifyorderseal()",
       "id": "src_services_opticalorderservice_opticalorderservice_verifyorderseal",
-      "community_name": "Community 3"
+      "community": 2,
+      "norm_label": ".verifyorderseal()"
     },
     {
       "label": "whatsAppOpticNotifier.service.js",
@@ -768,10 +979,9 @@
       "source_file": "src/services/whatsAppOpticNotifier.service.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 10,
-      "norm_label": "whatsappopticnotifier.service.js",
       "id": "src_services_whatsappopticnotifier_service",
-      "community_name": "Community 10"
+      "community": 7,
+      "norm_label": "whatsappopticnotifier.service.js"
     },
     {
       "label": "WhatsAppOpticNotifierService",
@@ -779,10 +989,9 @@
       "source_file": "src/services/whatsAppOpticNotifier.service.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 10,
-      "norm_label": "whatsappopticnotifierservice",
       "id": "src_services_whatsappopticnotifier_service_whatsappopticnotifierservice",
-      "community_name": "Community 10"
+      "community": 7,
+      "norm_label": "whatsappopticnotifierservice"
     },
     {
       "label": ".notifyGlassesReady()",
@@ -790,10 +999,9 @@
       "source_file": "src/services/whatsAppOpticNotifier.service.js",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 10,
-      "norm_label": ".notifyglassesready()",
       "id": "src_services_whatsappopticnotifier_service_whatsappopticnotifierservice_notifyglassesready",
-      "community_name": "Community 10"
+      "community": 7,
+      "norm_label": ".notifyglassesready()"
     },
     {
       "label": ".notifyPrescriptionSummary()",
@@ -801,10 +1009,19 @@
       "source_file": "src/services/whatsAppOpticNotifier.service.js",
       "source_location": "L22",
       "_origin": "ast",
-      "community": 10,
-      "norm_label": ".notifyprescriptionsummary()",
       "id": "src_services_whatsappopticnotifier_service_whatsappopticnotifierservice_notifyprescriptionsummary",
-      "community_name": "Community 10"
+      "community": 7,
+      "norm_label": ".notifyprescriptionsummary()"
+    },
+    {
+      "label": "sw-register.js",
+      "file_type": "code",
+      "source_file": "src/sw-register.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_sw_register",
+      "community": 10,
+      "norm_label": "sw-register.js"
     },
     {
       "label": "cryptoSeal.js",
@@ -812,10 +1029,9 @@
       "source_file": "src/utils/cryptoSeal.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": "cryptoseal.js",
       "id": "src_utils_cryptoseal",
-      "community_name": "Community 3"
+      "community": 2,
+      "norm_label": "cryptoseal.js"
     },
     {
       "label": "sha256Sync()",
@@ -823,10 +1039,9 @@
       "source_file": "src/utils/cryptoSeal.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": "sha256sync()",
       "id": "src_utils_cryptoseal_sha256sync",
-      "community_name": "Community 3"
+      "community": 2,
+      "norm_label": "sha256sync()"
     },
     {
       "label": "toUtf8BinaryString()",
@@ -834,10 +1049,9 @@
       "source_file": "src/utils/cryptoSeal.js",
       "source_location": "L90",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": "toutf8binarystring()",
       "id": "src_utils_cryptoseal_toutf8binarystring",
-      "community_name": "Community 3"
+      "community": 2,
+      "norm_label": "toutf8binarystring()"
     },
     {
       "label": "CryptoSeal",
@@ -845,10 +1059,9 @@
       "source_file": "src/utils/cryptoSeal.js",
       "source_location": "L102",
       "_origin": "ast",
-      "community": 3,
-      "norm_label": "cryptoseal",
       "id": "src_utils_cryptoseal_cryptoseal",
-      "community_name": "Community 3"
+      "community": 2,
+      "norm_label": "cryptoseal"
     },
     {
       "label": "formatters.js",
@@ -856,10 +1069,9 @@
       "source_file": "src/utils/formatters.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 9,
-      "norm_label": "formatters.js",
       "id": "src_utils_formatters",
-      "community_name": "Community 9"
+      "community": 1,
+      "norm_label": "formatters.js"
     },
     {
       "label": "Formatters",
@@ -867,10 +1079,9 @@
       "source_file": "src/utils/formatters.js",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 9,
-      "norm_label": "formatters",
       "id": "src_utils_formatters_formatters",
-      "community_name": "Community 9"
+      "community": 1,
+      "norm_label": "formatters"
     },
     {
       "label": "sanitizer.js",
@@ -878,10 +1089,9 @@
       "source_file": "src/utils/sanitizer.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
-      "norm_label": "sanitizer.js",
       "id": "src_utils_sanitizer",
-      "community_name": "Community 4"
+      "community": 1,
+      "norm_label": "sanitizer.js"
     },
     {
       "label": "Sanitizer",
@@ -889,10 +1099,39 @@
       "source_file": "src/utils/sanitizer.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 4,
-      "norm_label": "sanitizer",
       "id": "src_utils_sanitizer_sanitizer",
-      "community_name": "Community 4"
+      "community": 1,
+      "norm_label": "sanitizer"
+    },
+    {
+      "label": "sw.js",
+      "file_type": "code",
+      "source_file": "sw.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "sw",
+      "community": 9,
+      "norm_label": "sw.js"
+    },
+    {
+      "label": "STATIC_ASSETS",
+      "file_type": "code",
+      "source_file": "sw.js",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "sw_static_assets",
+      "community": 9,
+      "norm_label": "static_assets"
+    },
+    {
+      "label": "tailwind.config.cjs",
+      "file_type": "code",
+      "source_file": "tailwind.config.cjs",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "tailwind_config",
+      "community": 11,
+      "norm_label": "tailwind.config.cjs"
     },
     {
       "label": "run_tests.js",
@@ -900,10 +1139,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "run_tests.js",
       "id": "tests_run_tests",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "run_tests.js"
     },
     {
       "label": "assert()",
@@ -911,10 +1149,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L21",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "assert()",
       "id": "tests_run_tests_assert",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "assert()"
     },
     {
       "label": "tr1",
@@ -922,10 +1159,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L42",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "tr1",
       "id": "tests_run_tests_tr1",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "tr1"
     },
     {
       "label": "tr2",
@@ -933,10 +1169,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L49",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "tr2",
       "id": "tests_run_tests_tr2",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "tr2"
     },
     {
       "label": "tr3",
@@ -944,10 +1179,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L54",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "tr3",
       "id": "tests_run_tests_tr3",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "tr3"
     },
     {
       "label": "tr4",
@@ -955,10 +1189,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L58",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "tr4",
       "id": "tests_run_tests_tr4",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "tr4"
     },
     {
       "label": "far",
@@ -966,10 +1199,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L62",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "far",
       "id": "tests_run_tests_far",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "far"
     },
     {
       "label": "near",
@@ -977,10 +1209,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L63",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "near",
       "id": "tests_run_tests_near",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "near"
     },
     {
       "label": "validRanges",
@@ -988,10 +1219,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L68",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "validranges",
       "id": "tests_run_tests_validranges",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "validranges"
     },
     {
       "label": "extremeSph",
@@ -999,10 +1229,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L72",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "extremesph",
       "id": "tests_run_tests_extremesph",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "extremesph"
     },
     {
       "label": "badDnp",
@@ -1010,10 +1239,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L76",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "baddnp",
       "id": "tests_run_tests_baddnp",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "baddnp"
     },
     {
       "label": "matLow",
@@ -1021,10 +1249,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L80",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "matlow",
       "id": "tests_run_tests_matlow",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "matlow"
     },
     {
       "label": "matMid",
@@ -1032,10 +1259,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L82",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "matmid",
       "id": "tests_run_tests_matmid",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "matmid"
     },
     {
       "label": "matHigh",
@@ -1043,10 +1269,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L84",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "mathigh",
       "id": "tests_run_tests_mathigh",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "mathigh"
     },
     {
       "label": "matUltra",
@@ -1054,10 +1279,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L86",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "matultra",
       "id": "tests_run_tests_matultra",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "matultra"
     },
     {
       "label": "lensCheckPass",
@@ -1065,10 +1289,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L90",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "lenscheckpass",
       "id": "tests_run_tests_lenscheckpass",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "lenscheckpass"
     },
     {
       "label": "lensCheckFailSph",
@@ -1076,10 +1299,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L97",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "lenscheckfailsph",
       "id": "tests_run_tests_lenscheckfailsph",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "lenscheckfailsph"
     },
     {
       "label": "lensCheckFailAxis",
@@ -1087,10 +1309,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L104",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "lenscheckfailaxis",
       "id": "tests_run_tests_lenscheckfailaxis",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "lenscheckfailaxis"
     },
     {
       "label": "orderDraft",
@@ -1098,10 +1319,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L117",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "orderdraft",
       "id": "tests_run_tests_orderdraft",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "orderdraft"
     },
     {
       "label": "orderWorkshop",
@@ -1109,10 +1329,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L138",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "orderworkshop",
       "id": "tests_run_tests_orderworkshop",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "orderworkshop"
     },
     {
       "label": "orderQualityApproved",
@@ -1120,10 +1339,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L147",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "orderqualityapproved",
       "id": "tests_run_tests_orderqualityapproved",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "orderqualityapproved"
     },
     {
       "label": "isSealValid",
@@ -1131,10 +1349,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L158",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "issealvalid",
       "id": "tests_run_tests_issealvalid",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "issealvalid"
     },
     {
       "label": "tamperedOrder",
@@ -1142,10 +1359,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L162",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "tamperedorder",
       "id": "tests_run_tests_tamperedorder",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "tamperedorder"
     },
     {
       "label": "orderQualityFailed",
@@ -1153,10 +1369,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L167",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "orderqualityfailed",
       "id": "tests_run_tests_orderqualityfailed",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "orderqualityfailed"
     },
     {
       "label": "orderDelivered",
@@ -1164,10 +1379,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L177",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "orderdelivered",
       "id": "tests_run_tests_orderdelivered",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "orderdelivered"
     },
     {
       "label": "csvOutput",
@@ -1175,10 +1389,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L186",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "csvoutput",
       "id": "tests_run_tests_csvoutput",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "csvoutput"
     },
     {
       "label": "badgeReady",
@@ -1186,10 +1399,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L225",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "badgeready",
       "id": "tests_run_tests_badgeready",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "badgeready"
     },
     {
       "label": "badgeWorkshop",
@@ -1197,10 +1409,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L227",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "badgeworkshop",
       "id": "tests_run_tests_badgeworkshop",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "badgeworkshop"
     },
     {
       "label": "escaped",
@@ -1208,10 +1419,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L231",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "escaped",
       "id": "tests_run_tests_escaped",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "escaped"
     },
     {
       "label": "rulesPath",
@@ -1219,10 +1429,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L245",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "rulespath",
       "id": "tests_run_tests_rulespath",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "rulespath"
     },
     {
       "label": "rulesContent",
@@ -1230,10 +1439,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L249",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "rulescontent",
       "id": "tests_run_tests_rulescontent",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "rulescontent"
     },
     {
       "label": "fbPath",
@@ -1241,10 +1449,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L262",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "fbpath",
       "id": "tests_run_tests_fbpath",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "fbpath"
     },
     {
       "label": "fbContent",
@@ -1252,10 +1459,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L263",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "fbcontent",
       "id": "tests_run_tests_fbcontent",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "fbcontent"
     },
     {
       "label": "gitignoreContent",
@@ -1263,10 +1469,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L279",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "gitignorecontent",
       "id": "tests_run_tests_gitignorecontent",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "gitignorecontent"
     },
     {
       "label": "e2eOrder",
@@ -1274,10 +1479,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L289",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "e2eorder",
       "id": "tests_run_tests_e2eorder",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "e2eorder"
     },
     {
       "label": "e2eWorkshop",
@@ -1285,10 +1489,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L303",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "e2eworkshop",
       "id": "tests_run_tests_e2eworkshop",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "e2eworkshop"
     },
     {
       "label": "e2eQuality",
@@ -1296,10 +1499,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L304",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "e2equality",
       "id": "tests_run_tests_e2equality",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "e2equality"
     },
     {
       "label": "e2eDelivered",
@@ -1307,10 +1509,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L310",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "e2edelivered",
       "id": "tests_run_tests_e2edelivered",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "e2edelivered"
     },
     {
       "label": "cachedOrders",
@@ -1318,10 +1519,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L316",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "cachedorders",
       "id": "tests_run_tests_cachedorders",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "cachedorders"
     },
     {
       "label": "waReady",
@@ -1329,10 +1529,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L325",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "waready",
       "id": "tests_run_tests_waready",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "waready"
     },
     {
       "label": "waSummary",
@@ -1340,10 +1539,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L336",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "wasummary",
       "id": "tests_run_tests_wasummary",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "wasummary"
     },
     {
       "label": "nullTrans",
@@ -1351,10 +1549,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L358",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "nulltrans",
       "id": "tests_run_tests_nulltrans",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "nulltrans"
     },
     {
       "label": "chaosTrans",
@@ -1362,10 +1559,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L362",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "chaostrans",
       "id": "tests_run_tests_chaostrans",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "chaostrans"
     },
     {
       "label": "chaosLens",
@@ -1373,10 +1569,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L366",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "chaoslens",
       "id": "tests_run_tests_chaoslens",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "chaoslens"
     },
     {
       "label": "unicodePayload",
@@ -1384,10 +1579,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L370",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "unicodepayload",
       "id": "tests_run_tests_unicodepayload",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "unicodepayload"
     },
     {
       "label": "unicodeHash",
@@ -1395,10 +1589,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L371",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "unicodehash",
       "id": "tests_run_tests_unicodehash",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "unicodehash"
     },
     {
       "label": "packageJson",
@@ -1406,10 +1599,9 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L384",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "packagejson",
       "id": "tests_run_tests_packagejson",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "packagejson"
     },
     {
       "label": "versionJson",
@@ -1417,13 +1609,141 @@
       "source_file": "tests/run_tests.js",
       "source_location": "L385",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "versionjson",
       "id": "tests_run_tests_versionjson",
-      "community_name": "Community 0"
+      "community": 0,
+      "norm_label": "versionjson"
+    },
+    {
+      "label": "swContent",
+      "file_type": "code",
+      "source_file": "tests/run_tests.js",
+      "source_location": "L386",
+      "_origin": "ast",
+      "id": "tests_run_tests_swcontent",
+      "community": 0,
+      "norm_label": "swcontent"
+    },
+    {
+      "label": "htmlContent",
+      "file_type": "code",
+      "source_file": "tests/run_tests.js",
+      "source_location": "L391",
+      "_origin": "ast",
+      "id": "tests_run_tests_htmlcontent",
+      "community": 0,
+      "norm_label": "htmlcontent"
+    },
+    {
+      "label": "corruptedOrders",
+      "file_type": "code",
+      "source_file": "tests/run_tests.js",
+      "source_location": "L409",
+      "_origin": "ast",
+      "id": "tests_run_tests_corruptedorders",
+      "community": 0,
+      "norm_label": "corruptedorders"
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "manifest",
+      "target": "manifest_background_color",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "manifest",
+      "target": "manifest_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "manifest",
+      "target": "manifest_display",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "manifest",
+      "target": "manifest_icons",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "manifest",
+      "target": "manifest_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "manifest",
+      "target": "manifest_scope",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "manifest",
+      "target": "manifest_short_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "manifest",
+      "target": "manifest_start_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manifest.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "manifest",
+      "target": "manifest_theme_color",
+      "confidence_score": 1.0
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -1431,9 +1751,9 @@
       "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_author"
+      "target": "package_author",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1442,9 +1762,9 @@
       "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_description"
+      "target": "package_description",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1453,9 +1773,9 @@
       "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_license"
+      "target": "package_license",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1464,9 +1784,9 @@
       "source_location": "L2",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_name"
+      "target": "package_name",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1475,9 +1795,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_scripts"
+      "target": "package_scripts",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1486,9 +1806,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_type"
+      "target": "package_type",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1497,9 +1817,9 @@
       "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_version"
+      "target": "package_version",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1508,9 +1828,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_security_full"
+      "target": "package_scripts_security_full",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1519,9 +1839,9 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_test"
+      "target": "package_scripts_test",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1530,9 +1850,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_test_security"
+      "target": "package_scripts_test_security",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1541,9 +1861,9 @@
       "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_version_bump"
+      "target": "package_scripts_version_bump",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1552,21 +1872,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_core_lensometerqualitysentinel",
-      "target": "src_core_lensometerqualitysentinel_lensometerqualitysentinel"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main.js",
-      "source_location": "L7",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main",
-      "target": "src_core_lensometerqualitysentinel"
+      "target": "src_core_lensometerqualitysentinel_lensometerqualitysentinel",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -1576,9 +1884,9 @@
       "source_location": "L2",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_services_opticalorderservice",
-      "target": "src_core_lensometerqualitysentinel"
+      "target": "src_core_lensometerqualitysentinel",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -1588,9 +1896,9 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "src_core_lensometerqualitysentinel"
+      "target": "src_core_lensometerqualitysentinel",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -1599,21 +1907,9 @@
       "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_core_lensometerqualitysentinel_lensometerqualitysentinel",
-      "target": "src_core_lensometerqualitysentinel_lensometerqualitysentinel_auditdiopters"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main.js",
-      "source_location": "L7",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main",
-      "target": "src_core_lensometerqualitysentinel_lensometerqualitysentinel"
+      "target": "src_core_lensometerqualitysentinel_lensometerqualitysentinel_auditdiopters",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1623,9 +1919,9 @@
       "source_location": "L2",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_services_opticalorderservice",
-      "target": "src_core_lensometerqualitysentinel_lensometerqualitysentinel"
+      "target": "src_core_lensometerqualitysentinel_lensometerqualitysentinel",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1635,9 +1931,9 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "src_core_lensometerqualitysentinel_lensometerqualitysentinel"
+      "target": "src_core_lensometerqualitysentinel_lensometerqualitysentinel",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -1658,9 +1954,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_core_materialscatalog",
-      "target": "src_core_materialscatalog_lens_materials"
+      "target": "src_core_materialscatalog_lens_materials",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1669,9 +1965,9 @@
       "source_location": "L53",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_core_materialscatalog",
-      "target": "src_core_materialscatalog_lens_treatments"
+      "target": "src_core_materialscatalog_lens_treatments",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1680,9 +1976,9 @@
       "source_location": "L76",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_core_materialscatalog",
-      "target": "src_core_materialscatalog_materialscatalog"
+      "target": "src_core_materialscatalog_materialscatalog",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -1692,9 +1988,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_core_materialscatalog"
+      "target": "src_core_materialscatalog",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -1704,9 +2000,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "src_core_materialscatalog"
+      "target": "src_core_materialscatalog",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1716,9 +2012,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_core_materialscatalog_lens_materials"
+      "target": "src_core_materialscatalog_lens_materials",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1728,9 +2024,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "src_core_materialscatalog_lens_materials"
+      "target": "src_core_materialscatalog_lens_materials",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1740,9 +2036,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_core_materialscatalog_lens_treatments"
+      "target": "src_core_materialscatalog_lens_treatments",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1752,9 +2048,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "src_core_materialscatalog_lens_treatments"
+      "target": "src_core_materialscatalog_lens_treatments",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -1763,9 +2059,9 @@
       "source_location": "L77",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_core_materialscatalog_materialscatalog",
-      "target": "src_core_materialscatalog_materialscatalog_getmaterial"
+      "target": "src_core_materialscatalog_materialscatalog_getmaterial",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -1774,9 +2070,9 @@
       "source_location": "L81",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_core_materialscatalog_materialscatalog",
-      "target": "src_core_materialscatalog_materialscatalog_gettreatment"
+      "target": "src_core_materialscatalog_materialscatalog_gettreatment",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -1785,9 +2081,9 @@
       "source_location": "L85",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_core_materialscatalog_materialscatalog",
-      "target": "src_core_materialscatalog_materialscatalog_suggestmaterial"
+      "target": "src_core_materialscatalog_materialscatalog_suggestmaterial",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1797,9 +2093,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_core_materialscatalog_materialscatalog"
+      "target": "src_core_materialscatalog_materialscatalog",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1809,9 +2105,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "src_core_materialscatalog_materialscatalog"
+      "target": "src_core_materialscatalog_materialscatalog",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -1819,11 +2115,23 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/main.js",
-      "source_location": "L268",
+      "source_location": "L443",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_main_renderprescriptions",
       "target": "src_core_materialscatalog_materialscatalog_getmaterial"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main.js",
+      "source_location": "L445",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_renderprescriptions",
+      "target": "src_core_materialscatalog_materialscatalog_gettreatment"
     },
     {
       "relation": "contains",
@@ -1832,9 +2140,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_core_opticaltransposer",
-      "target": "src_core_opticaltransposer_opticaltransposer"
+      "target": "src_core_opticaltransposer_opticaltransposer",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -1844,9 +2152,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_core_opticaltransposer"
+      "target": "src_core_opticaltransposer",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -1856,9 +2164,9 @@
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_services_opticalorderservice",
-      "target": "src_core_opticaltransposer"
+      "target": "src_core_opticaltransposer",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -1868,9 +2176,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "src_core_opticaltransposer"
+      "target": "src_core_opticaltransposer",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -1879,9 +2187,9 @@
       "source_location": "L47",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_core_opticaltransposer_opticaltransposer",
-      "target": "src_core_opticaltransposer_opticaltransposer_computenearformula"
+      "target": "src_core_opticaltransposer_opticaltransposer_computenearformula",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -1890,9 +2198,9 @@
       "source_location": "L15",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_core_opticaltransposer_opticaltransposer",
-      "target": "src_core_opticaltransposer_opticaltransposer_transpose"
+      "target": "src_core_opticaltransposer_opticaltransposer_transpose",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -1901,9 +2209,9 @@
       "source_location": "L62",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_core_opticaltransposer_opticaltransposer",
-      "target": "src_core_opticaltransposer_opticaltransposer_validatephysiologicalranges"
+      "target": "src_core_opticaltransposer_opticaltransposer_validatephysiologicalranges",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1913,9 +2221,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_core_opticaltransposer_opticaltransposer"
+      "target": "src_core_opticaltransposer_opticaltransposer",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1925,9 +2233,9 @@
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_services_opticalorderservice",
-      "target": "src_core_opticaltransposer_opticaltransposer"
+      "target": "src_core_opticaltransposer_opticaltransposer",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -1937,9 +2245,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "src_core_opticaltransposer_opticaltransposer"
+      "target": "src_core_opticaltransposer_opticaltransposer",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -1947,7 +2255,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/main.js",
-      "source_location": "L496",
+      "source_location": "L738",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_main_attachtransposerevents",
@@ -1971,7 +2279,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/main.js",
-      "source_location": "L497",
+      "source_location": "L739",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_main_attachtransposerevents",
@@ -1988,6 +2296,18 @@
       "_origin": "ast",
       "source": "src_services_opticalorderservice_opticalorderservice_createorder",
       "target": "src_core_opticaltransposer_opticaltransposer_computenearformula"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main.js",
+      "source_location": "L732",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_attachtransposerevents",
+      "target": "src_core_opticaltransposer_opticaltransposer_validatephysiologicalranges"
     },
     {
       "relation": "calls",
@@ -2005,213 +2325,354 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L235",
+      "source_location": "L403",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_main_attachdashboardevents"
+      "target": "src_main_attachdashboardevents",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L379",
+      "source_location": "L135",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_main_attachprescriptionsevents"
+      "target": "src_main_attachdemopurgelistener",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L716",
+      "source_location": "L591",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_main_attachsettlementevents"
+      "target": "src_main_attachprescriptionsevents",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L489",
+      "source_location": "L1007",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_main_attachtransposerevents"
+      "target": "src_main_attachsettlementevents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L719",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main",
+      "target": "src_main_attachtransposerevents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L1061",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main",
+      "target": "src_main_closeallmodals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L1051",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main",
+      "target": "src_main_closemodalelement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L111",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main",
+      "target": "src_main_generatepatientid",
+      "confidence_score": 1.0
     },
     {
       "relation": "indirect_call",
       "confidence": "INFERRED",
       "source_file": "src/main.js",
-      "source_location": "L927",
+      "source_location": "L1380",
       "weight": 1.0,
       "_origin": "ast",
       "context": "argument",
-      "confidence_score": 0.5,
       "source": "src_main",
-      "target": "src_main_initapp"
+      "target": "src_main_initapp",
+      "confidence_score": 0.5
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L22",
+      "source_location": "L145",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_main_initializedemodata"
+      "target": "src_main_initializedemodata",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L842",
+      "source_location": "L1326",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_main_opendeliverymodal"
+      "target": "src_main_loadappversion",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L801",
+      "source_location": "L1084",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_main_openlensometermodal"
+      "target": "src_main_opendeliverymodal",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L743",
+      "source_location": "L1073",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_main_opennewordermodal"
+      "target": "src_main_openlensometermodal",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L608",
+      "source_location": "L1040",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_main_rendercatalog"
+      "target": "src_main_openmodalelement",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L109",
+      "source_location": "L1067",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_main_renderdashboard"
+      "target": "src_main_opennewordermodal",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L525",
+      "source_location": "L95",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_main_renderlensometerqc"
+      "target": "src_main_parsenumericinput",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L249",
+      "source_location": "L882",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_main_renderprescriptions"
+      "target": "src_main_rendercatalog",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L657",
+      "source_location": "L247",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_main_rendersettlement"
+      "target": "src_main_renderdashboard",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L418",
+      "source_location": "L48",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_main_rendertransposertool"
+      "target": "src_main_renderdemobadge",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L16",
+      "source_location": "L118",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_main_state"
+      "target": "src_main_renderdemonoticebanner",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L872",
+      "source_location": "L773",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_main_switchtab"
+      "target": "src_main_renderlensometerqc",
+      "confidence_score": 1.0
     },
     {
-      "relation": "imports_from",
-      "context": "import",
+      "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L9",
+      "source_location": "L422",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_services_exportservice"
+      "target": "src_main_renderprescriptions",
+      "confidence_score": 1.0
     },
     {
-      "relation": "imports",
-      "context": "import",
+      "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L9",
+      "source_location": "L934",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_services_exportservice_exportservice"
+      "target": "src_main_rendersettlement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main",
+      "target": "src_main_renderstatusbadge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L642",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main",
+      "target": "src_main_rendertransposertool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L1101",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main",
+      "target": "src_main_setupmodallisteners",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main",
+      "target": "src_main_showglobalerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L77",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main",
+      "target": "src_main_showmodalerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main",
+      "target": "src_main_showstatusmessage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main",
+      "target": "src_main_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main",
+      "target": "src_main_svg_icons",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L1293",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main",
+      "target": "src_main_switchtab",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -2221,9 +2682,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_services_opticalorderservice"
+      "target": "src_services_exportservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -2233,9 +2694,57 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_services_opticalorderservice_opticalorderservice"
+      "target": "src_services_exportservice_exportservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main",
+      "target": "src_services_opticalorderservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main",
+      "target": "src_services_opticalorderservice_opticalorderservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main",
+      "target": "src_services_optitrackcache_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main",
+      "target": "src_services_optitrackcache_service_optitrackcacheservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -2245,9 +2754,9 @@
       "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_services_optitrackcache_service"
+      "target": "src_services_whatsappopticnotifier_service",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -2257,9 +2766,9 @@
       "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_services_optitrackcache_service_optitrackcacheservice"
+      "target": "src_services_whatsappopticnotifier_service_whatsappopticnotifierservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -2269,9 +2778,9 @@
       "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_services_whatsappopticnotifier_service"
+      "target": "src_utils_formatters",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -2281,9 +2790,9 @@
       "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_services_whatsappopticnotifier_service_whatsappopticnotifierservice"
+      "target": "src_utils_formatters_formatters",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -2293,9 +2802,9 @@
       "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_utils_formatters"
+      "target": "src_utils_sanitizer",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -2305,32 +2814,80 @@
       "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main",
+      "target": "src_utils_sanitizer_sanitizer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L381",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_renderdashboard",
+      "target": "src_main_renderstatusbadge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L799",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_renderlensometerqc",
+      "target": "src_main_renderstatusbadge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L459",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_renderprescriptions",
+      "target": "src_main_renderstatusbadge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L994",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_rendersettlement",
+      "target": "src_main_renderstatusbadge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main.js",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_renderstatusbadge",
       "target": "src_utils_formatters_formatters"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
+      "relation": "references",
+      "context": "call",
       "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "src/main.js",
-      "source_location": "L13",
+      "source_location": "L43",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main",
-      "target": "src_utils_sanitizer"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main.js",
-      "source_location": "L13",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main",
+      "source": "src_main_renderstatusbadge",
       "target": "src_utils_sanitizer_sanitizer"
     },
     {
@@ -2338,12 +2895,240 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L909",
+      "source_location": "L371",
       "weight": 1.0,
       "_origin": "ast",
+      "source": "src_main_renderdashboard",
+      "target": "src_main_renderdemobadge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L794",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_renderlensometerqc",
+      "target": "src_main_renderdemobadge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L454",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_renderprescriptions",
+      "target": "src_main_renderdemobadge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L983",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_rendersettlement",
+      "target": "src_main_renderdemobadge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L1034",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_attachsettlementevents",
+      "target": "src_main_showglobalerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L155",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_initializedemodata",
+      "target": "src_main_showglobalerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L139",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_attachdemopurgelistener",
+      "target": "src_main_showstatusmessage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L1032",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_attachsettlementevents",
+      "target": "src_main_showstatusmessage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L1193",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_setupmodallisteners",
+      "target": "src_main_showstatusmessage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L1086",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_opendeliverymodal",
+      "target": "src_main_showmodalerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L1075",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_openlensometermodal",
+      "target": "src_main_showmodalerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L1068",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_opennewordermodal",
+      "target": "src_main_showmodalerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L1137",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_setupmodallisteners",
+      "target": "src_main_showmodalerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "call",
+      "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source": "src_main_initapp",
-      "target": "src_main_initializedemodata"
+      "source_file": "src/main.js",
+      "source_location": "L89",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_showmodalerror",
+      "target": "src_utils_sanitizer_sanitizer"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L727",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_attachtransposerevents",
+      "target": "src_main_parsenumericinput",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L1153",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_setupmodallisteners",
+      "target": "src_main_parsenumericinput",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L1173",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_setupmodallisteners",
+      "target": "src_main_generatepatientid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L258",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_renderdashboard",
+      "target": "src_main_renderdemonoticebanner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L566",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_renderprescriptions",
+      "target": "src_main_renderdemonoticebanner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L140",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_attachdemopurgelistener",
+      "target": "src_main_switchtab",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -2351,7 +3136,55 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/main.js",
-      "source_location": "L33",
+      "source_location": "L137",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_attachdemopurgelistener",
+      "target": "src_services_optitrackcache_service_optitrackcacheservice_purgedata"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L400",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_renderdashboard",
+      "target": "src_main_attachdemopurgelistener",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L588",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_renderprescriptions",
+      "target": "src_main_attachdemopurgelistener",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L1343",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_initapp",
+      "target": "src_main_initializedemodata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main.js",
+      "source_location": "L162",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_main_initializedemodata",
@@ -2363,7 +3196,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/main.js",
-      "source_location": "L98",
+      "source_location": "L234",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_main_initializedemodata",
@@ -2375,7 +3208,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/main.js",
-      "source_location": "L69",
+      "source_location": "L202",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_main_initializedemodata",
@@ -2387,7 +3220,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/main.js",
-      "source_location": "L48",
+      "source_location": "L178",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_main_initializedemodata",
@@ -2399,7 +3232,31 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/main.js",
-      "source_location": "L28",
+      "source_location": "L146",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_initializedemodata",
+      "target": "src_services_optitrackcache_service_optitrackcacheservice_clearlaststorageerror"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main.js",
+      "source_location": "L153",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_initializedemodata",
+      "target": "src_services_optitrackcache_service_optitrackcacheservice_getlaststorageerror"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main.js",
+      "source_location": "L152",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_main_initializedemodata",
@@ -2411,7 +3268,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/main.js",
-      "source_location": "L23",
+      "source_location": "L147",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_main_initializedemodata",
@@ -2423,7 +3280,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/main.js",
-      "source_location": "L104",
+      "source_location": "L242",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_main_initializedemodata",
@@ -2434,12 +3291,12 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L232",
+      "source_location": "L399",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main_renderdashboard",
-      "target": "src_main_attachdashboardevents"
+      "target": "src_main_attachdashboardevents",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -2447,7 +3304,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/main.js",
-      "source_location": "L140",
+      "source_location": "L286",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_main_renderdashboard",
@@ -2459,7 +3316,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/main.js",
-      "source_location": "L205",
+      "source_location": "L370",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_main_renderdashboard",
@@ -2470,168 +3327,192 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L885",
+      "source_location": "L1304",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main_switchtab",
-      "target": "src_main_renderdashboard"
+      "target": "src_main_renderdashboard",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L238",
+      "source_location": "L406",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main_attachdashboardevents",
-      "target": "src_main_opennewordermodal"
+      "target": "src_main_opennewordermodal",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "src/main.js",
-      "source_location": "L237",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_attachdashboardevents",
-      "target": "src_main_switchtab"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main.js",
-      "source_location": "L797",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_opennewordermodal",
-      "target": "src_main_renderprescriptions"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main.js",
-      "source_location": "L376",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_renderprescriptions",
-      "target": "src_main_attachprescriptionsevents"
-    },
-    {
-      "relation": "references",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/main.js",
-      "source_location": "L267",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_main_renderprescriptions",
-      "target": "src_utils_formatters_formatters"
-    },
-    {
-      "relation": "references",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/main.js",
-      "source_location": "L273",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_main_renderprescriptions",
-      "target": "src_utils_sanitizer_sanitizer"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main.js",
-      "source_location": "L888",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_switchtab",
-      "target": "src_main_renderprescriptions"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main.js",
-      "source_location": "L396",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_attachprescriptionsevents",
-      "target": "src_main_opendeliverymodal"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main.js",
-      "source_location": "L388",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_attachprescriptionsevents",
-      "target": "src_main_openlensometermodal"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main.js",
-      "source_location": "L381",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_attachprescriptionsevents",
-      "target": "src_main_opennewordermodal"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "src/main.js",
       "source_location": "L405",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_attachdashboardevents",
+      "target": "src_main_switchtab",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L587",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_renderprescriptions",
+      "target": "src_main_attachprescriptionsevents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main.js",
+      "source_location": "L473",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_renderprescriptions",
+      "target": "src_utils_formatters_formatters"
+    },
+    {
+      "relation": "references",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main.js",
+      "source_location": "L453",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_renderprescriptions",
+      "target": "src_utils_sanitizer_sanitizer"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L1194",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_setupmodallisteners",
+      "target": "src_main_renderprescriptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L1307",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_switchtab",
+      "target": "src_main_renderprescriptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L617",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_attachprescriptionsevents",
+      "target": "src_main_opendeliverymodal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L609",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_attachprescriptionsevents",
+      "target": "src_main_openlensometermodal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L593",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_attachprescriptionsevents",
+      "target": "src_main_opennewordermodal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L601",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_attachprescriptionsevents",
+      "target": "src_main_switchtab",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main.js",
+      "source_location": "L626",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_main_attachprescriptionsevents",
       "target": "src_services_whatsappopticnotifier_service_whatsappopticnotifierservice_notifyglassesready"
     },
     {
-      "relation": "calls",
+      "relation": "references",
       "context": "call",
       "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "src/main.js",
-      "source_location": "L605",
+      "source_location": "L633",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_renderlensometerqc",
-      "target": "src_main_attachprescriptionsevents"
+      "source": "src_main_attachprescriptionsevents",
+      "target": "src_utils_sanitizer_sanitizer"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L486",
+      "source_location": "L879",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
+      "source": "src_main_renderlensometerqc",
+      "target": "src_main_attachprescriptionsevents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L716",
+      "weight": 1.0,
+      "_origin": "ast",
       "source": "src_main_rendertransposertool",
-      "target": "src_main_attachtransposerevents"
+      "target": "src_main_attachtransposerevents",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -2639,7 +3520,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/main.js",
-      "source_location": "L485",
+      "source_location": "L715",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_main_rendertransposertool",
@@ -2650,12 +3531,12 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L891",
+      "source_location": "L1310",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main_switchtab",
-      "target": "src_main_rendertransposertool"
+      "target": "src_main_rendertransposertool",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -2663,7 +3544,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/main.js",
-      "source_location": "L504",
+      "source_location": "L746",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_main_attachtransposerevents",
@@ -2675,7 +3556,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/main.js",
-      "source_location": "L507",
+      "source_location": "L749",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_main_attachtransposerevents",
@@ -2687,7 +3568,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/main.js",
-      "source_location": "L567",
+      "source_location": "L805",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_main_renderlensometerqc",
@@ -2699,7 +3580,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/main.js",
-      "source_location": "L563",
+      "source_location": "L793",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_main_renderlensometerqc",
@@ -2710,12 +3591,12 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L894",
+      "source_location": "L1313",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main_switchtab",
-      "target": "src_main_renderlensometerqc"
+      "target": "src_main_renderlensometerqc",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -2723,7 +3604,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/main.js",
-      "source_location": "L624",
+      "source_location": "L901",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_main_rendercatalog",
@@ -2734,24 +3615,24 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L897",
+      "source_location": "L1316",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main_switchtab",
-      "target": "src_main_rendercatalog"
+      "target": "src_main_rendercatalog",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L713",
+      "source_location": "L1004",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main_rendersettlement",
-      "target": "src_main_attachsettlementevents"
+      "target": "src_main_attachsettlementevents",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -2759,7 +3640,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/main.js",
-      "source_location": "L693",
+      "source_location": "L988",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_main_rendersettlement",
@@ -2771,7 +3652,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/main.js",
-      "source_location": "L690",
+      "source_location": "L982",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_main_rendersettlement",
@@ -2782,12 +3663,12 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L900",
+      "source_location": "L1319",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main_switchtab",
-      "target": "src_main_rendersettlement"
+      "target": "src_main_rendersettlement",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -2795,7 +3676,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/main.js",
-      "source_location": "L729",
+      "source_location": "L1022",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_main_attachsettlementevents",
@@ -2806,120 +3687,84 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L920",
+      "source_location": "L1098",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
+      "source": "src_main_opendeliverymodal",
+      "target": "src_main_openmodalelement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L1081",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_openlensometermodal",
+      "target": "src_main_openmodalelement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L1070",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_opennewordermodal",
+      "target": "src_main_openmodalelement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L1062",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_closeallmodals",
+      "target": "src_main_closemodalelement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L1117",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_setupmodallisteners",
+      "target": "src_main_closemodalelement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L1108",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_setupmodallisteners",
+      "target": "src_main_closeallmodals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L1373",
+      "weight": 1.0,
+      "_origin": "ast",
       "source": "src_main_initapp",
-      "target": "src_main_opennewordermodal"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/main.js",
-      "source_location": "L776",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_main_opennewordermodal",
-      "target": "src_services_opticalorderservice_opticalorderservice_createorder"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/main.js",
-      "source_location": "L792",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_main_opennewordermodal",
-      "target": "src_services_opticalorderservice_opticalorderservice_sendtoworkshop"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/main.js",
-      "source_location": "L794",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_main_opennewordermodal",
-      "target": "src_services_optitrackcache_service_optitrackcacheservice_saveorders"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main.js",
-      "source_location": "L838",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_openlensometermodal",
-      "target": "src_main_switchtab"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/main.js",
-      "source_location": "L826",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_main_openlensometermodal",
-      "target": "src_services_opticalorderservice_opticalorderservice_recordlensometerqualitycheck"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/main.js",
-      "source_location": "L835",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_main_openlensometermodal",
-      "target": "src_services_optitrackcache_service_optitrackcacheservice_saveorders"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main.js",
-      "source_location": "L867",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_main_opendeliverymodal",
-      "target": "src_main_switchtab"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/main.js",
-      "source_location": "L858",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_main_opendeliverymodal",
-      "target": "src_services_opticalorderservice_opticalorderservice_deliverorder"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/main.js",
-      "source_location": "L864",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_main_opendeliverymodal",
-      "target": "src_services_optitrackcache_service_optitrackcacheservice_saveorders"
+      "target": "src_main_opennewordermodal",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -2927,7 +3772,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/main.js",
-      "source_location": "L851",
+      "source_location": "L1093",
       "weight": 1.0,
       "_origin": "ast",
       "source": "src_main_opendeliverymodal",
@@ -2938,12 +3783,108 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/main.js",
-      "source_location": "L914",
+      "source_location": "L1344",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_main_initapp",
-      "target": "src_main_switchtab"
+      "target": "src_main_setupmodallisteners",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L1242",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_setupmodallisteners",
+      "target": "src_main_switchtab",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main.js",
+      "source_location": "L1172",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_setupmodallisteners",
+      "target": "src_services_opticalorderservice_opticalorderservice_createorder"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main.js",
+      "source_location": "L1271",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_setupmodallisteners",
+      "target": "src_services_opticalorderservice_opticalorderservice_deliverorder"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main.js",
+      "source_location": "L1226",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_setupmodallisteners",
+      "target": "src_services_opticalorderservice_opticalorderservice_recordlensometerqualitycheck"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main.js",
+      "source_location": "L1188",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_setupmodallisteners",
+      "target": "src_services_opticalorderservice_opticalorderservice_sendtoworkshop"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main.js",
+      "source_location": "L1190",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_setupmodallisteners",
+      "target": "src_services_optitrackcache_service_optitrackcacheservice_saveorders"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L1351",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_initapp",
+      "target": "src_main_switchtab",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.js",
+      "source_location": "L1345",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_main_initapp",
+      "target": "src_main_loadappversion",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2952,9 +3893,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_services_exportservice",
-      "target": "src_services_exportservice_exportservice"
+      "target": "src_services_exportservice_exportservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -2964,9 +3905,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "src_services_exportservice"
+      "target": "src_services_exportservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -2975,9 +3916,9 @@
       "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_services_exportservice_exportservice",
-      "target": "src_services_exportservice_exportservice_exporttoexcelcsv"
+      "target": "src_services_exportservice_exportservice_exporttoexcelcsv",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -2987,20 +3928,20 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "src_services_exportservice_exportservice"
+      "target": "src_services_exportservice_exportservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L11",
+      "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_services_optitrackcache_service",
-      "target": "src_services_optitrackcache_service_getstorageitem"
+      "target": "src_services_optitrackcache_service_getstorageitem",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3009,42 +3950,53 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_services_optitrackcache_service",
-      "target": "src_services_optitrackcache_service_memorystore"
+      "target": "src_services_optitrackcache_service_memorystore",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L34",
+      "source_location": "L46",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_services_optitrackcache_service",
-      "target": "src_services_optitrackcache_service_optitrackcacheservice"
+      "target": "src_services_optitrackcache_service_optitrackcacheservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L26",
+      "source_location": "L27",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_services_optitrackcache_service",
-      "target": "src_services_optitrackcache_service_removestorageitem"
+      "target": "src_services_optitrackcache_service_removestorageitem",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L18",
+      "source_location": "L35",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_services_optitrackcache_service",
-      "target": "src_services_optitrackcache_service_setstorageitem"
+      "target": "src_services_optitrackcache_service_safeparsejson",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/optiTrackCache.service.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_services_optitrackcache_service",
+      "target": "src_services_optitrackcache_service_setstorageitem",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -3054,93 +4006,287 @@
       "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "src_services_optitrackcache_service"
+      "target": "src_services_optitrackcache_service",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L60",
+      "source_location": "L82",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_services_optitrackcache_service_optitrackcacheservice_enqueueoutbox",
-      "target": "src_services_optitrackcache_service_getstorageitem"
+      "target": "src_services_optitrackcache_service_getstorageitem",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
       "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/optiTrackCache.service.js",
+      "source_location": "L77",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_services_optitrackcache_service_optitrackcacheservice_getorders",
+      "target": "src_services_optitrackcache_service_getstorageitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/optiTrackCache.service.js",
+      "source_location": "L93",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_services_optitrackcache_service_optitrackcacheservice_getoutbox",
+      "target": "src_services_optitrackcache_service_getstorageitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/optiTrackCache.service.js",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_services_optitrackcache_service_optitrackcacheservice_ispurged",
+      "target": "src_services_optitrackcache_service_getstorageitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/optiTrackCache.service.js",
+      "source_location": "L89",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_services_optitrackcache_service_optitrackcacheservice_enqueueoutbox",
+      "target": "src_services_optitrackcache_service_setstorageitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/optiTrackCache.service.js",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_services_optitrackcache_service_optitrackcacheservice_purgedata",
+      "target": "src_services_optitrackcache_service_setstorageitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/optiTrackCache.service.js",
+      "source_location": "L72",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_services_optitrackcache_service_optitrackcacheservice_saveorders",
+      "target": "src_services_optitrackcache_service_setstorageitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/optiTrackCache.service.js",
+      "source_location": "L98",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_services_optitrackcache_service_optitrackcacheservice_clearoutbox",
+      "target": "src_services_optitrackcache_service_removestorageitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/optiTrackCache.service.js",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_services_optitrackcache_service_optitrackcacheservice_purgedata",
+      "target": "src_services_optitrackcache_service_removestorageitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/optiTrackCache.service.js",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_services_optitrackcache_service_optitrackcacheservice_resetpurgefortesting",
+      "target": "src_services_optitrackcache_service_removestorageitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/optiTrackCache.service.js",
+      "source_location": "L83",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_services_optitrackcache_service_optitrackcacheservice_enqueueoutbox",
+      "target": "src_services_optitrackcache_service_safeparsejson",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/optiTrackCache.service.js",
+      "source_location": "L78",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_services_optitrackcache_service_optitrackcacheservice_getorders",
+      "target": "src_services_optitrackcache_service_safeparsejson",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/optiTrackCache.service.js",
+      "source_location": "L94",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_services_optitrackcache_service_optitrackcacheservice_getoutbox",
+      "target": "src_services_optitrackcache_service_safeparsejson",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/optiTrackCache.service.js",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_services_optitrackcache_service_optitrackcacheservice",
+      "target": "src_services_optitrackcache_service_optitrackcacheservice_clearlaststorageerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/optiTrackCache.service.js",
+      "source_location": "L97",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_services_optitrackcache_service_optitrackcacheservice",
+      "target": "src_services_optitrackcache_service_optitrackcacheservice_clearoutbox",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/optiTrackCache.service.js",
+      "source_location": "L81",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_services_optitrackcache_service_optitrackcacheservice",
+      "target": "src_services_optitrackcache_service_optitrackcacheservice_enqueueoutbox",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/optiTrackCache.service.js",
+      "source_location": "L47",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_services_optitrackcache_service_optitrackcacheservice",
+      "target": "src_services_optitrackcache_service_optitrackcacheservice_getlaststorageerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/optiTrackCache.service.js",
+      "source_location": "L75",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_services_optitrackcache_service_optitrackcacheservice",
+      "target": "src_services_optitrackcache_service_optitrackcacheservice_getorders",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/optiTrackCache.service.js",
+      "source_location": "L92",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_services_optitrackcache_service_optitrackcacheservice",
+      "target": "src_services_optitrackcache_service_optitrackcacheservice_getoutbox",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/services/optiTrackCache.service.js",
       "source_location": "L55",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_services_optitrackcache_service_optitrackcacheservice_getorders",
-      "target": "src_services_optitrackcache_service_getstorageitem"
+      "source": "src_services_optitrackcache_service_optitrackcacheservice",
+      "target": "src_services_optitrackcache_service_optitrackcacheservice_ispurged",
+      "confidence_score": 1.0
     },
     {
-      "relation": "calls",
-      "context": "call",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/optiTrackCache.service.js",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_services_optitrackcache_service_optitrackcacheservice",
+      "target": "src_services_optitrackcache_service_optitrackcacheservice_purgedata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/optiTrackCache.service.js",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_services_optitrackcache_service_optitrackcacheservice",
+      "target": "src_services_optitrackcache_service_optitrackcacheservice_resetpurgefortesting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/services/optiTrackCache.service.js",
       "source_location": "L71",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_services_optitrackcache_service_optitrackcacheservice_getoutbox",
-      "target": "src_services_optitrackcache_service_getstorageitem"
+      "source": "src_services_optitrackcache_service_optitrackcacheservice",
+      "target": "src_services_optitrackcache_service_optitrackcacheservice_saveorders",
+      "confidence_score": 1.0
     },
     {
-      "relation": "calls",
-      "context": "call",
+      "relation": "imports",
+      "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L36",
+      "source_file": "tests/run_tests.js",
+      "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_services_optitrackcache_service_optitrackcacheservice_ispurged",
-      "target": "src_services_optitrackcache_service_getstorageitem"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L67",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_services_optitrackcache_service_optitrackcacheservice_enqueueoutbox",
-      "target": "src_services_optitrackcache_service_setstorageitem"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L40",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_services_optitrackcache_service_optitrackcacheservice_purgedata",
-      "target": "src_services_optitrackcache_service_setstorageitem"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L50",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_services_optitrackcache_service_optitrackcacheservice_saveorders",
-      "target": "src_services_optitrackcache_service_setstorageitem"
+      "source": "tests_run_tests",
+      "target": "src_services_optitrackcache_service_optitrackcacheservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -3150,145 +4296,9 @@
       "source_location": "L76",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_services_optitrackcache_service_optitrackcacheservice_clearoutbox",
-      "target": "src_services_optitrackcache_service_removestorageitem"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L41",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_services_optitrackcache_service_optitrackcacheservice_purgedata",
-      "target": "src_services_optitrackcache_service_removestorageitem"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L46",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_services_optitrackcache_service_optitrackcacheservice_resetpurgefortesting",
-      "target": "src_services_optitrackcache_service_removestorageitem"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L75",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_services_optitrackcache_service_optitrackcacheservice",
-      "target": "src_services_optitrackcache_service_optitrackcacheservice_clearoutbox"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L59",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_services_optitrackcache_service_optitrackcacheservice",
-      "target": "src_services_optitrackcache_service_optitrackcacheservice_enqueueoutbox"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L53",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_services_optitrackcache_service_optitrackcacheservice",
-      "target": "src_services_optitrackcache_service_optitrackcacheservice_getorders"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L70",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_services_optitrackcache_service_optitrackcacheservice",
-      "target": "src_services_optitrackcache_service_optitrackcacheservice_getoutbox"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L35",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_services_optitrackcache_service_optitrackcacheservice",
-      "target": "src_services_optitrackcache_service_optitrackcacheservice_ispurged"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L39",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_services_optitrackcache_service_optitrackcacheservice",
-      "target": "src_services_optitrackcache_service_optitrackcacheservice_purgedata"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L45",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_services_optitrackcache_service_optitrackcacheservice",
-      "target": "src_services_optitrackcache_service_optitrackcacheservice_resetpurgefortesting"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L49",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_services_optitrackcache_service_optitrackcacheservice",
-      "target": "src_services_optitrackcache_service_optitrackcacheservice_saveorders"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/run_tests.js",
-      "source_location": "L10",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "tests_run_tests",
-      "target": "src_services_optitrackcache_service_optitrackcacheservice"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/services/optiTrackCache.service.js",
-      "source_location": "L54",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_services_optitrackcache_service_optitrackcacheservice_getorders",
-      "target": "src_services_optitrackcache_service_optitrackcacheservice_ispurged"
+      "target": "src_services_optitrackcache_service_optitrackcacheservice_ispurged",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3297,9 +4307,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_services_opticalorderservice",
-      "target": "src_services_opticalorderservice_opticalorderservice"
+      "target": "src_services_opticalorderservice_opticalorderservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -3309,9 +4319,9 @@
       "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_services_opticalorderservice",
-      "target": "src_utils_cryptoseal"
+      "target": "src_utils_cryptoseal",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -3321,9 +4331,9 @@
       "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_services_opticalorderservice",
-      "target": "src_utils_cryptoseal_cryptoseal"
+      "target": "src_utils_cryptoseal_cryptoseal",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -3333,9 +4343,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "src_services_opticalorderservice"
+      "target": "src_services_opticalorderservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -3344,9 +4354,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_services_opticalorderservice_opticalorderservice",
-      "target": "src_services_opticalorderservice_opticalorderservice_createorder"
+      "target": "src_services_opticalorderservice_opticalorderservice_createorder",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -3355,9 +4365,9 @@
       "source_location": "L169",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_services_opticalorderservice_opticalorderservice",
-      "target": "src_services_opticalorderservice_opticalorderservice_deliverorder"
+      "target": "src_services_opticalorderservice_opticalorderservice_deliverorder",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -3366,9 +4376,9 @@
       "source_location": "L114",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_services_opticalorderservice_opticalorderservice",
-      "target": "src_services_opticalorderservice_opticalorderservice_recordlensometerqualitycheck"
+      "target": "src_services_opticalorderservice_opticalorderservice_recordlensometerqualitycheck",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -3377,9 +4387,9 @@
       "source_location": "L95",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_services_opticalorderservice_opticalorderservice",
-      "target": "src_services_opticalorderservice_opticalorderservice_sendtoworkshop"
+      "target": "src_services_opticalorderservice_opticalorderservice_sendtoworkshop",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -3388,9 +4398,9 @@
       "source_location": "L196",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_services_opticalorderservice_opticalorderservice",
-      "target": "src_services_opticalorderservice_opticalorderservice_verifyorderseal"
+      "target": "src_services_opticalorderservice_opticalorderservice_verifyorderseal",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -3400,9 +4410,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "src_services_opticalorderservice_opticalorderservice"
+      "target": "src_services_opticalorderservice_opticalorderservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -3435,9 +4445,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_services_whatsappopticnotifier_service",
-      "target": "src_services_whatsappopticnotifier_service_whatsappopticnotifierservice"
+      "target": "src_services_whatsappopticnotifier_service_whatsappopticnotifierservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -3447,9 +4457,9 @@
       "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "src_services_whatsappopticnotifier_service"
+      "target": "src_services_whatsappopticnotifier_service",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -3458,9 +4468,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_services_whatsappopticnotifier_service_whatsappopticnotifierservice",
-      "target": "src_services_whatsappopticnotifier_service_whatsappopticnotifierservice_notifyglassesready"
+      "target": "src_services_whatsappopticnotifier_service_whatsappopticnotifierservice_notifyglassesready",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -3469,9 +4479,9 @@
       "source_location": "L22",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_services_whatsappopticnotifier_service_whatsappopticnotifierservice",
-      "target": "src_services_whatsappopticnotifier_service_whatsappopticnotifierservice_notifyprescriptionsummary"
+      "target": "src_services_whatsappopticnotifier_service_whatsappopticnotifierservice_notifyprescriptionsummary",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -3481,9 +4491,9 @@
       "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "src_services_whatsappopticnotifier_service_whatsappopticnotifierservice"
+      "target": "src_services_whatsappopticnotifier_service_whatsappopticnotifierservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3492,9 +4502,9 @@
       "source_location": "L102",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_utils_cryptoseal",
-      "target": "src_utils_cryptoseal_cryptoseal"
+      "target": "src_utils_cryptoseal_cryptoseal",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3503,9 +4513,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_utils_cryptoseal",
-      "target": "src_utils_cryptoseal_sha256sync"
+      "target": "src_utils_cryptoseal_sha256sync",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3514,9 +4524,9 @@
       "source_location": "L90",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_utils_cryptoseal",
-      "target": "src_utils_cryptoseal_toutf8binarystring"
+      "target": "src_utils_cryptoseal_toutf8binarystring",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -3526,9 +4536,9 @@
       "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "src_utils_cryptoseal"
+      "target": "src_utils_cryptoseal",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -3538,9 +4548,9 @@
       "source_location": "L12",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "src_utils_cryptoseal_cryptoseal"
+      "target": "src_utils_cryptoseal_cryptoseal",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3549,9 +4559,9 @@
       "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_utils_formatters",
-      "target": "src_utils_formatters_formatters"
+      "target": "src_utils_formatters_formatters",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -3561,9 +4571,9 @@
       "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "src_utils_formatters"
+      "target": "src_utils_formatters",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -3573,9 +4583,9 @@
       "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "src_utils_formatters_formatters"
+      "target": "src_utils_formatters_formatters",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3584,9 +4594,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "src_utils_sanitizer",
-      "target": "src_utils_sanitizer_sanitizer"
+      "target": "src_utils_sanitizer_sanitizer",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -3596,9 +4606,9 @@
       "source_location": "L14",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "src_utils_sanitizer"
+      "target": "src_utils_sanitizer",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -3608,9 +4618,20 @@
       "source_location": "L14",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "src_utils_sanitizer_sanitizer"
+      "target": "src_utils_sanitizer_sanitizer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sw.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "sw",
+      "target": "sw_static_assets",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3619,9 +4640,9 @@
       "source_location": "L21",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_assert"
+      "target": "tests_run_tests_assert",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3630,9 +4651,9 @@
       "source_location": "L76",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_baddnp"
+      "target": "tests_run_tests_baddnp",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3641,9 +4662,9 @@
       "source_location": "L225",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_badgeready"
+      "target": "tests_run_tests_badgeready",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3652,9 +4673,9 @@
       "source_location": "L227",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_badgeworkshop"
+      "target": "tests_run_tests_badgeworkshop",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3663,9 +4684,9 @@
       "source_location": "L316",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_cachedorders"
+      "target": "tests_run_tests_cachedorders",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3674,9 +4695,9 @@
       "source_location": "L366",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_chaoslens"
+      "target": "tests_run_tests_chaoslens",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3685,9 +4706,20 @@
       "source_location": "L362",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_chaostrans"
+      "target": "tests_run_tests_chaostrans",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/run_tests.js",
+      "source_location": "L409",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tests_run_tests",
+      "target": "tests_run_tests_corruptedorders",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3696,9 +4728,9 @@
       "source_location": "L186",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_csvoutput"
+      "target": "tests_run_tests_csvoutput",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3707,9 +4739,9 @@
       "source_location": "L310",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_e2edelivered"
+      "target": "tests_run_tests_e2edelivered",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3718,9 +4750,9 @@
       "source_location": "L289",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_e2eorder"
+      "target": "tests_run_tests_e2eorder",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3729,9 +4761,9 @@
       "source_location": "L304",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_e2equality"
+      "target": "tests_run_tests_e2equality",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3740,9 +4772,9 @@
       "source_location": "L303",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_e2eworkshop"
+      "target": "tests_run_tests_e2eworkshop",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3751,9 +4783,9 @@
       "source_location": "L231",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_escaped"
+      "target": "tests_run_tests_escaped",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3762,9 +4794,9 @@
       "source_location": "L72",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_extremesph"
+      "target": "tests_run_tests_extremesph",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3773,9 +4805,9 @@
       "source_location": "L62",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_far"
+      "target": "tests_run_tests_far",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3784,9 +4816,9 @@
       "source_location": "L263",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_fbcontent"
+      "target": "tests_run_tests_fbcontent",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3795,9 +4827,9 @@
       "source_location": "L262",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_fbpath"
+      "target": "tests_run_tests_fbpath",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3806,9 +4838,20 @@
       "source_location": "L279",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_gitignorecontent"
+      "target": "tests_run_tests_gitignorecontent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/run_tests.js",
+      "source_location": "L391",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tests_run_tests",
+      "target": "tests_run_tests_htmlcontent",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3817,9 +4860,9 @@
       "source_location": "L158",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_issealvalid"
+      "target": "tests_run_tests_issealvalid",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3828,9 +4871,9 @@
       "source_location": "L104",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_lenscheckfailaxis"
+      "target": "tests_run_tests_lenscheckfailaxis",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3839,9 +4882,9 @@
       "source_location": "L97",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_lenscheckfailsph"
+      "target": "tests_run_tests_lenscheckfailsph",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3850,9 +4893,9 @@
       "source_location": "L90",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_lenscheckpass"
+      "target": "tests_run_tests_lenscheckpass",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3861,9 +4904,9 @@
       "source_location": "L84",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_mathigh"
+      "target": "tests_run_tests_mathigh",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3872,9 +4915,9 @@
       "source_location": "L80",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_matlow"
+      "target": "tests_run_tests_matlow",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3883,9 +4926,9 @@
       "source_location": "L82",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_matmid"
+      "target": "tests_run_tests_matmid",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3894,9 +4937,9 @@
       "source_location": "L86",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_matultra"
+      "target": "tests_run_tests_matultra",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3905,9 +4948,9 @@
       "source_location": "L63",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_near"
+      "target": "tests_run_tests_near",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3916,9 +4959,9 @@
       "source_location": "L358",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_nulltrans"
+      "target": "tests_run_tests_nulltrans",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3927,9 +4970,9 @@
       "source_location": "L177",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_orderdelivered"
+      "target": "tests_run_tests_orderdelivered",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3938,9 +4981,9 @@
       "source_location": "L117",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_orderdraft"
+      "target": "tests_run_tests_orderdraft",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3949,9 +4992,9 @@
       "source_location": "L147",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_orderqualityapproved"
+      "target": "tests_run_tests_orderqualityapproved",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3960,9 +5003,9 @@
       "source_location": "L167",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_orderqualityfailed"
+      "target": "tests_run_tests_orderqualityfailed",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3971,9 +5014,9 @@
       "source_location": "L138",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_orderworkshop"
+      "target": "tests_run_tests_orderworkshop",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3982,9 +5025,9 @@
       "source_location": "L384",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_packagejson"
+      "target": "tests_run_tests_packagejson",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3993,9 +5036,9 @@
       "source_location": "L249",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_rulescontent"
+      "target": "tests_run_tests_rulescontent",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4004,9 +5047,20 @@
       "source_location": "L245",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_rulespath"
+      "target": "tests_run_tests_rulespath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/run_tests.js",
+      "source_location": "L386",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "tests_run_tests",
+      "target": "tests_run_tests_swcontent",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4015,9 +5069,9 @@
       "source_location": "L162",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_tamperedorder"
+      "target": "tests_run_tests_tamperedorder",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4026,9 +5080,9 @@
       "source_location": "L42",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_tr1"
+      "target": "tests_run_tests_tr1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4037,9 +5091,9 @@
       "source_location": "L49",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_tr2"
+      "target": "tests_run_tests_tr2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4048,9 +5102,9 @@
       "source_location": "L54",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_tr3"
+      "target": "tests_run_tests_tr3",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4059,9 +5113,9 @@
       "source_location": "L58",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_tr4"
+      "target": "tests_run_tests_tr4",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4070,9 +5124,9 @@
       "source_location": "L371",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_unicodehash"
+      "target": "tests_run_tests_unicodehash",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4081,9 +5135,9 @@
       "source_location": "L370",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_unicodepayload"
+      "target": "tests_run_tests_unicodepayload",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4092,9 +5146,9 @@
       "source_location": "L68",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_validranges"
+      "target": "tests_run_tests_validranges",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4103,9 +5157,9 @@
       "source_location": "L385",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_versionjson"
+      "target": "tests_run_tests_versionjson",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4114,9 +5168,9 @@
       "source_location": "L325",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_waready"
+      "target": "tests_run_tests_waready",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4125,9 +5179,9 @@
       "source_location": "L336",
       "weight": 1.0,
       "_origin": "ast",
-      "confidence_score": 1.0,
       "source": "tests_run_tests",
-      "target": "tests_run_tests_wasummary"
+      "target": "tests_run_tests_wasummary",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": []

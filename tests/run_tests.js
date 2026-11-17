@@ -221,11 +221,11 @@ assert(Formatters.currencyARS(85000).includes('85.000'), 'Currency ARS formats t
 // 27. Currency USD formatting
 assert(Formatters.currencyUSD(150.25).includes('150.25'), 'Currency USD formats two decimals');
 
-// 28. Order status badge mapping
+// 28. Order status badge mapping (clean non-emoji icons)
 const badgeReady = Formatters.orderStatusBadge('LISTO_PARA_ENTREGA');
-assert(badgeReady.icon === '🟢' && badgeReady.text.includes('emerald'), 'Status badge styles LISTO_PARA_ENTREGA in emerald');
+assert(badgeReady.icon === 'ready' && badgeReady.text.includes('emerald'), 'Status badge styles LISTO_PARA_ENTREGA in emerald without emoji');
 const badgeWorkshop = Formatters.orderStatusBadge('EN_TALLER_CALIBRADO');
-assert(badgeWorkshop.icon === '⚙️' && badgeWorkshop.text.includes('purple'), 'Status badge styles EN_TALLER_CALIBRADO in purple');
+assert(badgeWorkshop.icon === 'workshop' && badgeWorkshop.text.includes('purple'), 'Status badge styles EN_TALLER_CALIBRADO in purple without emoji');
 
 // 29. DOM Sanitizer escapes dangerous characters
 const escaped = Sanitizer.escapeHTML('<img src=x onerror=alert(1)>');
@@ -380,10 +380,35 @@ try {
 }
 assert(errorThrown === true, 'Order service rejects empty required data');
 
-// 53. Version parity check
+// 53. Version parity check (package.json, version.json, sw.js)
 const packageJson = JSON.parse(fs.readFileSync(path.resolve(process.cwd(), 'package.json'), 'utf8'));
 const versionJson = JSON.parse(fs.readFileSync(path.resolve(process.cwd(), 'version.json'), 'utf8'));
+const swContent = fs.readFileSync(path.resolve(process.cwd(), 'sw.js'), 'utf8');
 assert(packageJson.version === versionJson.version.replace(/^v/, ''), 'package.json and version.json versions match');
+assert(swContent.includes(`optitrack-cache-${versionJson.version}`), 'sw.js CACHE_NAME matches version.json');
+
+// 54. Offline-First & PWA hygiene checks
+const htmlContent = fs.readFileSync(path.resolve(process.cwd(), 'index.html'), 'utf8');
+assert(!htmlContent.includes('cdn.tailwindcss.com'), 'index.html does not load runtime Tailwind CDN');
+assert(htmlContent.includes('href="./styles.css"') && htmlContent.includes('href="./manifest.json"'), 'index.html links local styles.css and manifest.json');
+assert(!htmlContent.includes('user-scalable=no') && !htmlContent.includes('maximum-scale=1.0'), 'Viewport allows pinch-zoom accessibility');
+assert(!fbContent.includes('cdn.tailwindcss.com') && !fbContent.includes("'unsafe-inline'"), 'firebase.json CSP forbids unsafe-inline and external Tailwind CDN');
+assert(swContent.includes('./src/main.js') && swContent.includes('./styles.css') && !swContent.includes('./src/app.js'), 'sw.js precaches actual main.js and styles.css without missing app.js');
+
+// 55. Cache resilience on corrupted JSON
+globalThis.localStorage = (() => {
+  const store = new Map();
+  return {
+    getItem: (k) => (store.has(k) ? store.get(k) : null),
+    setItem: (k, v) => store.set(k, String(v)),
+    removeItem: (k) => store.delete(k)
+  };
+})();
+OptiTrackCacheService.resetPurgeForTesting();
+localStorage.setItem('optitrack_orders_v1', '{invalid-json');
+const corruptedOrders = OptiTrackCacheService.getOrders();
+assert(Array.isArray(corruptedOrders) && corruptedOrders.length === 0 && Boolean(OptiTrackCacheService.getLastStorageError()), 'Cache service recovers safely from corrupted JSON and surfaces error');
+OptiTrackCacheService.purgeData();
 
 console.log('\n======================================================================');
 console.log(`  TOTAL: ${passed + failed} tests | ${passed} PASSED | ${failed} FAILED`);

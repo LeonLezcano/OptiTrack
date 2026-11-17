@@ -7,6 +7,7 @@ const STORAGE_KEY_ORDERS = 'optitrack_orders_v1';
 const STORAGE_KEY_OUTBOX = 'optitrack_outbox_v1';
 
 const memoryStore = new Map();
+let lastStorageError = null;
 
 function getStorageItem(key) {
   if (typeof localStorage !== 'undefined') {
@@ -31,18 +32,39 @@ function removeStorageItem(key) {
   }
 }
 
+function safeParseJSON(raw, fallback, contextLabel) {
+  if (!raw) return fallback;
+  try {
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed : fallback;
+  } catch (err) {
+    lastStorageError = `Error al leer ${contextLabel} en almacenamiento local: ${err.message}`;
+    return fallback;
+  }
+}
+
 export class OptiTrackCacheService {
+  static getLastStorageError() {
+    return lastStorageError;
+  }
+
+  static clearLastStorageError() {
+    lastStorageError = null;
+  }
+
   static isPurged() {
     return getStorageItem(PURGE_FLAG) === 'true';
   }
 
   static purgeData() {
+    lastStorageError = null;
     setStorageItem(PURGE_FLAG, 'true');
     removeStorageItem(STORAGE_KEY_ORDERS);
     removeStorageItem(STORAGE_KEY_OUTBOX);
   }
 
   static resetPurgeForTesting() {
+    lastStorageError = null;
     removeStorageItem(PURGE_FLAG);
   }
 
@@ -53,12 +75,12 @@ export class OptiTrackCacheService {
   static getOrders() {
     if (this.isPurged()) return [];
     const raw = getStorageItem(STORAGE_KEY_ORDERS);
-    return raw ? JSON.parse(raw) : [];
+    return safeParseJSON(raw, [], 'órdenes');
   }
 
   static enqueueOutbox(action) {
     const raw = getStorageItem(STORAGE_KEY_OUTBOX);
-    const queue = raw ? JSON.parse(raw) : [];
+    const queue = safeParseJSON(raw, [], 'bandeja de salida');
     queue.push({
       id: `OUT-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`,
       action,
@@ -69,7 +91,7 @@ export class OptiTrackCacheService {
 
   static getOutbox() {
     const raw = getStorageItem(STORAGE_KEY_OUTBOX);
-    return raw ? JSON.parse(raw) : [];
+    return safeParseJSON(raw, [], 'bandeja de salida');
   }
 
   static clearOutbox() {
